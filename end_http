@@ -1,0 +1,15 @@
+#!/usr/bin/env python3
+import os, psutil
+if __name__ == '__main__':
+    pid = None
+    try:
+        with open('/opt/SA_stats/pid','r') as pid_f: pid = int(pid_f.read())
+        if pid: 
+        	try:
+        		psutil.Process(pid).kill()
+        	except:
+        		print('process not found')
+        os.remove('/opt/SA_stats/osaf_envs')
+        os.remove('/opt/SA_stats/pid')
+    except FileNotFoundError:
+        print('"/opt/SA_stats/pid" or "/opt/SA_stats/osaf_envs" not found')

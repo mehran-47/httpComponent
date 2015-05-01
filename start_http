@@ -1,0 +1,38 @@
+#!/usr/bin/env python3
+import os, sys, psutil, threading
+from http.server import BaseHTTPRequestHandler, HTTPServer
+
+if __name__ == '__main__':
+    if not os.environ.get('SAFHTTPATT'):
+        print("No CSI attribute found, quitting") 
+        sys.exit()
+    else:
+        #ip = str(os.environ.get('SAFHTTPATT').split('|')[0].split(':')[0])
+        ip = '172.16.198.131'
+        port = int(os.environ.get('SAFHTTPATT').split('|')[0].split(':')[1])
+        CSI_name = str(os.environ.get('SAFHTTPATT').split('|')[1])
+        component_name = str(os.environ.get('SA_AMF_COMPONENT_NAME'))
+        #print("IP:%r, port:%r, CSI:%r, component:%r" %(ip,port,CSI_name,component_name))
+
+    envVarStrings = ""
+    for key in os.environ: envVarStrings+=str(key)+":"+ str(os.environ[key]) +"\n"
+    with open('/opt/SA_stats/osaf_envs', 'w') as sf: sf.write(envVarStrings)
+    with open('/opt/SA_stats/pid', 'w') as sf: sf.write(str(os.getpid()))
+    
+    htmlpage = '<html><head><title>SAF Web</title></head><body><p>component name :'+component_name+'</p>\
+    <p>CSI name :'+CSI_name+'</p>\
+    </body></html>'
+    notfound = "File not found"
+    class WelcomeHandler(BaseHTTPRequestHandler):
+        error_message_format = '<h1>Har har</h1>'
+        def do_GET(self):
+            #super().do_GET()
+            if self.path == "/":
+                self.send_response(200)
+                self.send_header("Content-type","text/html")
+                self.end_headers()
+                self.wfile.write(bytes(htmlpage, 'UTF-8'))
+            else:
+                self.send_error(404, notfound)
+    httpserver = HTTPServer((ip, port), WelcomeHandler)
+    httpserver.serve_forever()

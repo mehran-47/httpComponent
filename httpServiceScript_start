@@ -1,0 +1,3 @@
+#!/bin/bash
+logger "HTTP service starting"
+/opt/tempScripts/start_http &

@@ -1,0 +1,16 @@
+PATH:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+PWD:/
+SAFHTTPATT:172.16.198.130:8080|safCsi=CSI_1_NWayActiveHTTP,safSi=SI_1_NWayActiveHTTP,safApp=AppNWayActiveHTTP
+OPENSAF_GROUP:opensaf
+OPENSAF_REBOOT_TIMEOUT:60
+_:/opt/tempScripts/start_http
+SHLVL:1
+TERM:xterm
+MDS_TRANSPORT:TCP
+OPENSAF_MANAGE_TIPC:yes
+NCS_ENV_NODE_ID:131599
+OPENSAF_USER:opensaf
+SA_AMF_COMPONENT_NAME:safComp=comp_1_NWayActiveHTTP,safSu=SU_2_NWayActiveHTTP,safSg=SGNWayActiveHTTP,safApp=AppNWayActiveHTTP
+LD_LIBRARY_PATH:/usr/local/lib/opensaf:/usr/local/lib/opensaf:
+LANG:en_CA.UTF-8
+AVND_PM_MONITORING_RATE:1000
