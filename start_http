@@ -36,10 +36,3 @@ if __name__ == '__main__':
                 self.send_error(404, notfound)
     httpserver = HTTPServer((ip, port), WelcomeHandler)
     httpserver.serve_forever()
-    '''
-    server_listener_proc = multiprocessing.Process(target=httpserver.serve_forever)
-    #server_listener_proc.setDaemon(True)
-    server_listener_proc.daemon = True
-    server_listener_proc.start()
-    server_listener_proc.join()
-    '''
