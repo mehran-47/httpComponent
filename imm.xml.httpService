@@ -5296,7 +5296,7 @@ to ensure that default global values in the implementation are also changed acco
         <attr>
             <name>saAmfCtDefCleanupCmdArgv</name>
             <value>cleanup</value>
-        </attr>`
+        </attr>
         <attr>
             <name>saAmfCtRelPathTerminateCmd</name>
             <value>end_http</value>
@@ -5439,7 +5439,7 @@ to ensure that default global values in the implementation are also changed acco
         </attr>
         <attr>
             <name>saAmfCompInstantiateCmdArgv</name>
-            <value>safComp=comp_1_NWayActiveHTTP,safSu=SU_1_NWayActiveHTTP,safSg=SGNWayActiveHTTP,safApp=AppNWayActiveHTTP|8000</value>
+            <value>8080</value>
         </attr>
     </object>
     <object class="SaAmfCompCsType">
@@ -5476,7 +5476,7 @@ to ensure that default global values in the implementation are also changed acco
         </attr>
         <attr>
             <name>saAmfCompInstantiateCmdArgv</name>
-            <value>safComp=comp_1_NWayActiveHTTP,safSu=SU_2_NWayActiveHTTP,safSg=SGNWayActiveHTTP,safApp=AppNWayActiveHTTP|8000</value>
+            <value>8080</value>
         </attr>
     </object>
     <object class="SaAmfCompCsType">
