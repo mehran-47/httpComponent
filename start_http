@@ -9,9 +9,10 @@ if __name__ == '__main__':
     else:
         #ip = str(os.environ.get('SAFHTTPATT').split('|')[0].split(':')[0])
         ip = ni.ifaddresses('eth0')[2][0]['addr']
-        port = int(os.environ.get('SAFHTTPATT').split('|')[0].split(':')[1])
+        #port = int(os.environ.get('SAFHTTPATT').split('|')[0].split(':')[1])
+        port = int(sys.argv[1].split('|')[1])
         CSI_name = str(os.environ.get('SAFHTTPATT').split('|')[1])
-        component_name = str(os.environ.get('SA_AMF_COMPONENT_NAME'))
+        component_name = str(sys.argv[1].split('|')[0])
         #print("IP:%r, port:%r, CSI:%r, component:%r" %(ip,port,CSI_name,component_name))
 
     envVarStrings = ""
