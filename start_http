@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-import os, sys, psutil, threading
+import os, sys, psutil, multiprocessing , netifaces as ni
 from http.server import BaseHTTPRequestHandler, HTTPServer
 
 if __name__ == '__main__':
@@ -8,7 +8,7 @@ if __name__ == '__main__':
         sys.exit()
     else:
         #ip = str(os.environ.get('SAFHTTPATT').split('|')[0].split(':')[0])
-        ip = '172.16.198.131'
+        ip = ni.ifaddresses('eth0')[2][0]['addr']
         port = int(os.environ.get('SAFHTTPATT').split('|')[0].split(':')[1])
         CSI_name = str(os.environ.get('SAFHTTPATT').split('|')[1])
         component_name = str(os.environ.get('SA_AMF_COMPONENT_NAME'))
@@ -35,4 +35,9 @@ if __name__ == '__main__':
             else:
                 self.send_error(404, notfound)
     httpserver = HTTPServer((ip, port), WelcomeHandler)
-    httpserver.serve_forever()
+    server_listener_proc = multiprocessing.Process(target=httpserver.serve_forever)
+    #server_listener_proc.setDaemon(True)
+    #server_listener_proc.daemon = True
+    server_listener_proc.start()
+    server_listener_proc.join()
+    #httpserver.serve_forever()
