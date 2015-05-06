@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-import os, sys, psutil, netifaces as ni
+import os, sys, psutil, netifaces as ni, shelve as sh
 from http.server import BaseHTTPRequestHandler, HTTPServer
 
 if __name__ == '__main__':
@@ -9,7 +9,6 @@ if __name__ == '__main__':
     else:
         #ip = str(os.environ.get('SAFHTTPATT').split('|')[0].split(':')[0])
         ip = ni.ifaddresses('eth0')[2][0]['addr']
-        #port = int(os.environ.get('SAFHTTPATT').split('|')[0].split(':')[1])
         #port = int(sys.argv[1].split('|')[1])
         port = int(sys.argv[1])
         CSI_name = str(os.environ.get('SAFHTTPATT').split('|')[1])
@@ -21,6 +20,17 @@ if __name__ == '__main__':
     for key in os.environ: envVarStrings+=str(key)+":"+ str(os.environ[key]) +"\n"
     with open('/opt/SA_stats/osaf_envs', 'w') as sf: sf.write(envVarStrings)
     with open('/opt/SA_stats/pid', 'w') as sf: sf.write(str(os.getpid()))
+    try:
+        db = sh.open('/opt/SA_stats/compDB.db', writeback=True)
+        db['components']={}
+        db['components'][component_name] = {'CSI':CSI_name, 'PID':os.getpid(), 'component':component_name, 'HAState':'Active'}
+        if 'PIDs' in db: 
+            db['PIDs'] = db['PIDs']+[os.getpid()]
+        else:
+            db['PIDs'] = [os.getpid()]
+        db['osaf_envs'] = envVarStrings
+    finally:
+        db.close()
     
     htmlpage = '<html><head><title>SAF Web</title></head><body><p>component name :'+component_name+'</p>\
     <p>CSI name :'+CSI_name+'</p>\

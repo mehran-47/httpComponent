@@ -1,16 +1,18 @@
 #!/usr/bin/env python3
-import os, psutil
+import os, psutil, shelve as sh, sys
 if __name__ == '__main__':
     pid = None
+    killList = []
     try:
-        with open('/opt/SA_stats/pid','r') as pid_f: pid = int(pid_f.read())
-        if pid:
-            killList = [psutil.Process(pid)] + psutil.Process(pid).get_children()
-            try:
-                for pidToKill in killList: pidToKill.kill()
-            except:
-                print('process not found')
-        os.remove('/opt/SA_stats/osaf_envs')
-        os.remove('/opt/SA_stats/pid')
+        db = sh.open('/opt/SA_stats/compDB.db')
+        killList = db['PIDs']
     except FileNotFoundError:
-        print('"/opt/SA_stats/pid" or "/opt/SA_stats/osaf_envs" not found')
+        print('"compDB.db" not found')
+        sys.exit()        
+    finally:
+        db.close()
+        try:
+            for pidToKill in killList: psutil.Process(pidToKill).kill()
+        except:
+            print('process not found')
+        os.remove('/opt/SA_stats/compDB.db')
