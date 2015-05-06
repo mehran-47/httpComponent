@@ -23,12 +23,12 @@ if __name__ == '__main__':
     try:
         db = sh.open('/opt/SA_stats/compDB.db', writeback=True)
         db['components']={}
-        db['components'][component_name] = {'CSI':CSI_name, 'PID':os.getpid(), 'component':component_name, 'HAState':'Active'}
         if 'PIDs' in db: 
             db['PIDs'] = db['PIDs']+[os.getpid()]
         else:
             db['PIDs'] = [os.getpid()]
         db['osaf_envs'] = envVarStrings
+        db['components'][component_name] = {'CSI':CSI_name, 'PID':os.getpid(), 'component':component_name, 'HAState':'Active'}
     finally:
         db.close()
     
