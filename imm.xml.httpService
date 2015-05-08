@@ -5403,7 +5403,7 @@ to ensure that default global values in the implementation are also changed acco
         <dn>safCsiAttr=SAFHTTPATT,safCsi=CSI_1_NWayActiveHTTP,safSi=SI_1_NWayActiveHTTP,safApp=AppNWayActiveHTTP</dn>
         <attr>
             <name>saAmfCSIAttriValue</name>
-            <value>172.16.198.130:8080|safCsi=CSI_1_NWayActiveHTTP,safSi=SI_1_NWayActiveHTTP,safApp=AppNWayActiveHTTP</value>
+            <value>safCsi=CSI_1_NWayActiveHTTP,safSi=SI_1_NWayActiveHTTP,safApp=AppNWayActiveHTTP</value>
         </attr>
     </object>
     <object class="SaSmfSwBundle">
