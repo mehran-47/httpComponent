@@ -1,6 +1,19 @@
 #!/usr/bin/env python3
-import os, sys, psutil, netifaces as ni, shelve as sh
+import os, sys, netifaces as ni, shelve as sh
 from http.server import BaseHTTPRequestHandler, HTTPServer
+from subprocess import call
+
+class WelcomeHandler(BaseHTTPRequestHandler):
+    error_message_format = '<h1>Har har</h1>'
+    def do_GET(self):
+        #super().do_GET()
+        if self.path == "/":
+            self.send_response(200)
+            self.send_header("Content-type","text/html")
+            self.end_headers()
+            self.wfile.write(bytes(htmlpage, 'UTF-8'))
+        else:
+            self.send_error(404, notfound)
 
 if __name__ == '__main__':
     if not os.environ.get('SAFHTTPATT'):
@@ -22,11 +35,8 @@ if __name__ == '__main__':
     with open('/opt/SA_stats/pid', 'w') as sf: sf.write(str(os.getpid()))
     try:
         db = sh.open('/opt/SA_stats/compDB.db', writeback=True)
-        db['components']={}
-        if 'PIDs' in db: 
-            db['PIDs'] = db['PIDs']+[os.getpid()]
-        else:
-            db['PIDs'] = [os.getpid()]
+        if not 'components' in db: db['components'] = {}
+        db['PIDs'] = db['PIDs']+[os.getpid()] if 'PIDs' in db else [os.getpid()]
         db['osaf_envs'] = envVarStrings
         db['components'][component_name] = {'CSI':CSI_name, 'PID':os.getpid(), 'component':component_name, 'HAState':'Active'}
     finally:
@@ -36,16 +46,6 @@ if __name__ == '__main__':
     <p>CSI name :'+CSI_name+'</p>\
     </body></html>'
     notfound = "File not found"
-    class WelcomeHandler(BaseHTTPRequestHandler):
-        error_message_format = '<h1>Har har</h1>'
-        def do_GET(self):
-            #super().do_GET()
-            if self.path == "/":
-                self.send_response(200)
-                self.send_header("Content-type","text/html")
-                self.end_headers()
-                self.wfile.write(bytes(htmlpage, 'UTF-8'))
-            else:
-                self.send_error(404, notfound)
+    call(['/opt/httpComponent/send_trace.o', str(os.getpid()), '1'])
     httpserver = HTTPServer((ip, port), WelcomeHandler)
     httpserver.serve_forever()

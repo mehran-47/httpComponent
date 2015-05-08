@@ -1,18 +1,21 @@
 #!/usr/bin/env python3
 import os, psutil, shelve as sh, sys
+from subprocess import call
 if __name__ == '__main__':
-    pid = None
-    killList = []
     try:
-        db = sh.open('/opt/SA_stats/compDB.db')
+        db = sh.open('/opt/SA_stats/compDB.db', writeback=True)
         killList = db['PIDs']
     except FileNotFoundError:
         print('"compDB.db" not found')
         sys.exit()        
-    finally:
-        db.close()
+    for component in db['components']: 
+        print(db['components'][component]['PID'])
         try:
-            for pidToKill in killList: psutil.Process(pidToKill).kill()
-        except:
-            print('process not found')
-        os.remove('/opt/SA_stats/compDB.db')
+            psutil.Process(db['components'][component]['PID']).kill()
+        except psutil.NoSuchProcess:
+            print('component-process not found')
+        call(['/opt/httpComponent/send_trace.o', str(db['components'][component]['PID']), '0'])
+    db['components'] = {}
+    db['PIDs'] = []
+    db.close()
+    #os.remove('/opt/SA_stats/compDB.db')
