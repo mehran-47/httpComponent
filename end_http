@@ -15,7 +15,6 @@ if __name__ == '__main__':
         except psutil.NoSuchProcess:
             print('component-process not found')
         call(['/opt/httpComponent/send_trace.o', str(db['components'][component]['PID']), '0'])
-        call('amfpm --stop'.split(' '))
     db['components'] = {}
     db['PIDs'] = []
     db.close()
