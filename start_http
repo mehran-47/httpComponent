@@ -3,10 +3,10 @@ import os, sys, netifaces as ni, shelve as sh
 from http.server import BaseHTTPRequestHandler, HTTPServer
 from subprocess import call
 
+#HTTP server class
 class WelcomeHandler(BaseHTTPRequestHandler):
     error_message_format = '<h1>Har har</h1>'
     def do_GET(self):
-        #super().do_GET()
         if self.path == "/":
             self.send_response(200)
             self.send_header("Content-type","text/html")
@@ -20,15 +20,13 @@ if __name__ == '__main__':
         print("No CSI attribute found, quitting") 
         sys.exit()
     else:
-        #ip = str(os.environ.get('SAFHTTPATT').split('|')[0].split(':')[0])
         ip = ni.ifaddresses('eth0')[2][0]['addr']
-        #port = int(sys.argv[1].split('|')[1])
         port = int(sys.argv[1])
         CSI_name = os.environ.get('SAFHTTPATT')
-        #component_name = str(sys.argv[1].split('|')[0])
         component_name = str(os.environ.get('SA_AMF_COMPONENT_NAME'))
-        #print("IP:%r, port:%r, CSI:%r, component:%r" %(ip,port,CSI_name,component_name))
 
+    #Getting environment variables to show in the web page and to store in the temporary DB.
+    #DB has nothing to do with monitoring, kept for debugging purposes/ease of starting/ending http
     envVarStrings = ""
     for key in os.environ: envVarStrings+=str(key)+":"+ str(os.environ[key]) +"\n"
     with open('/opt/SA_stats/osaf_envs', 'w') as sf: sf.write(envVarStrings)
@@ -41,11 +39,15 @@ if __name__ == '__main__':
         db['components'][component_name] = {'CSI':CSI_name, 'PID':os.getpid(), 'component':component_name, 'HAState':'Active'}
     finally:
         db.close()
-    
+    #Creating the main HTML page
     htmlpage = '<html><head><title>SAF Web</title></head><body><p>component name :'+component_name+'</p>\
     <p>CSI name :'+CSI_name+'</p>\
     </body></html>'
     notfound = "File not found"
+    #Sending trace for the monitoring engine. A form of general instrumentation: command "/opt/httpComponent/send_trace.o <PID> <1>" or "/opt/httpComponent/send_trace.o <PID> <2>"
+    #The 1 signifies 'component instatiation' trace creation, 0 would signify 'component termination'.
     call(['/opt/httpComponent/send_trace.o', str(os.getpid()), '1'])
+    #passive monitoring
+    call('amfpm --start -p'.split(' ')+ [str(os.getpid()), component_name])
     httpserver = HTTPServer((ip, port), WelcomeHandler)
     httpserver.serve_forever()

@@ -11,10 +11,11 @@ if __name__ == '__main__':
     for component in db['components']: 
         print(db['components'][component]['PID'])
         try:
-            psutil.Process(db['components'][component]['PID']).kill()
+            psutil.Process(db['components'][component]['PID']).kill()            
         except psutil.NoSuchProcess:
             print('component-process not found')
         call(['/opt/httpComponent/send_trace.o', str(db['components'][component]['PID']), '0'])
+        call('amfpm --stop'.split(' '))
     db['components'] = {}
     db['PIDs'] = []
     db.close()

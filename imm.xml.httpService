@@ -5311,7 +5311,7 @@ to ensure that default global values in the implementation are also changed acco
         </attr>
         <attr>
             <name>saAmfCtDefDisableRestart</name>
-            <value>1</value>
+            <value>0</value>
         </attr>
     </object>
     <object class="SaAmfCSType">
