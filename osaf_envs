@@ -1,6 +1,6 @@
 PATH:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 PWD:/
-SAFHTTPATT:172.16.198.130:8080|safCsi=CSI_1_NWayActiveHTTP,safSi=SI_1_NWayActiveHTTP,safApp=AppNWayActiveHTTP
+SAFHTTPATT:safCsi=CSI_1_NWayActiveHTTP,safSi=SI_1_NWayActiveHTTP,safApp=AppNWayActiveHTTP
 OPENSAF_GROUP:opensaf
 OPENSAF_REBOOT_TIMEOUT:60
 _:/opt/tempScripts/start_http
