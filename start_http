@@ -4,6 +4,10 @@ from http.server import BaseHTTPRequestHandler, HTTPServer
 from socketserver import ThreadingMixIn
 from subprocess import call
 
+#Setting global variables for the component to function properly
+component_dir = '/opt/httpComponent'
+interface_to_host_in = 'eth0'
+
 
 #Making server multithreaded
 class MultiThreadedServer(ThreadingMixIn, HTTPServer):
@@ -15,7 +19,7 @@ class WelcomeHandler(BaseHTTPRequestHandler):
     def do_GET(self):
         mime = {"html":"text/html", "css":"text/css", "png":"image/png",}
         RequestedFileType = mimetypes.guess_type(self.path)[0] if mimetypes.guess_type(self.path)[0]!=None else 'text/html'
-        print((self.path, RequestedFileType, os.getcwd()))
+        #print((self.path, RequestedFileType, component_dir))
         try:
             if self.path == '/':
                 self.send_response(200)
@@ -23,11 +27,11 @@ class WelcomeHandler(BaseHTTPRequestHandler):
                 self.end_headers()
                 self.wfile.write(bytes(htmlpage, 'UTF-8'))
                 return
-            elif os.path.isfile(os.getcwd() + self.path):
+            elif os.path.isfile(component_dir + self.path):
                 self.send_response(200)
                 self.send_header("Content-type", RequestedFileType)
                 self.end_headers()
-                fp = open(os.getcwd() + self.path, 'rb')
+                fp = open(component_dir + self.path, 'rb')
                 self.wfile.write(fp.read())
                 fp.close()
                 return
@@ -45,7 +49,7 @@ if __name__ == '__main__':
         print("No CSI attribute found, quitting") 
         sys.exit()
     else:
-        ip = ni.ifaddresses('eth0')[2][0]['addr']
+        ip = ni.ifaddresses(interface_to_host_in)[2][0]['addr']
         port = int(sys.argv[1])
         CSI_name = os.environ.get('SAFHTTPATT')
         component_name = str(os.environ.get('SA_AMF_COMPONENT_NAME'))
@@ -69,7 +73,7 @@ if __name__ == '__main__':
     notfound = "File not found"
     #Sending trace for the monitoring engine. A form of general instrumentation: command "/opt/httpComponent/send_trace.o <PID> <1>" or "/opt/httpComponent/send_trace.o <PID> <2>"
     #The 1 signifies 'component instatiation' trace creation, 0 would signify 'component termination'.
-    call(['/opt/httpComponent/send_trace.o', str(os.getpid()), '1'])
+    call([component_dir+'/send_trace.o', str(os.getpid()), '1'])
     #passive monitoring
     call('amfpm --start -p'.split(' ')+ [str(os.getpid()), component_name])
     httpserver = MultiThreadedServer((ip, port), WelcomeHandler)
