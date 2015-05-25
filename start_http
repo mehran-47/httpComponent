@@ -45,7 +45,7 @@ if __name__ == '__main__':
         print("No CSI attribute found, quitting") 
         sys.exit()
     else:
-        ip = ni.ifaddresses('wlan0')[2][0]['addr']
+        ip = ni.ifaddresses('eth0')[2][0]['addr']
         port = int(sys.argv[1])
         CSI_name = os.environ.get('SAFHTTPATT')
         component_name = str(os.environ.get('SA_AMF_COMPONENT_NAME'))
@@ -69,8 +69,8 @@ if __name__ == '__main__':
     notfound = "File not found"
     #Sending trace for the monitoring engine. A form of general instrumentation: command "/opt/httpComponent/send_trace.o <PID> <1>" or "/opt/httpComponent/send_trace.o <PID> <2>"
     #The 1 signifies 'component instatiation' trace creation, 0 would signify 'component termination'.
-    #call(['/opt/httpComponent/send_trace.o', str(os.getpid()), '1'])
+    call(['/opt/httpComponent/send_trace.o', str(os.getpid()), '1'])
     #passive monitoring
-    #call('amfpm --start -p'.split(' ')+ [str(os.getpid()), component_name])
+    call('amfpm --start -p'.split(' ')+ [str(os.getpid()), component_name])
     httpserver = MultiThreadedServer((ip, port), WelcomeHandler)
     httpserver.serve_forever()
