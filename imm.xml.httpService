@@ -5362,15 +5362,15 @@ to ensure that default global values in the implementation are also changed acco
         </attr>
         <attr>
             <name>saAmfSGNumPrefInserviceSUs</name>
-            <value>10</value>
+            <value>2</value>
         </attr>
         <attr>
             <name>saAmfSGNumPrefAssignedSUs</name>
-            <value>10</value>
+            <value>2</value>
         </attr>
         <attr>
             <name>saAmfSGMaxActiveSIsperSU</name>
-            <value>2</value>
+            <value>1</value>
         </attr>
         <attr>
             <name>saAmfSGMaxStandbySIsperSU</name>
@@ -5391,6 +5391,14 @@ to ensure that default global values in the implementation are also changed acco
             <name>saAmfSIProtectedbySG</name>
             <value>safSg=SGNWayActiveHTTP,safApp=AppNWayActiveHTTP</value>
         </attr>
+        <attr>
+	      	<name>saAmfSIRank</name>
+	      	<value>0</value>
+    	</attr>
+    	<attr>
+      		<name>saAmfSIPrefActiveAssignments</name>
+      		<value>2</value>
+    	</attr>
     </object>
     <object class="SaAmfCSI">
         <dn>safCsi=CSI_1_NWayActiveHTTP,safSi=SI_1_NWayActiveHTTP,safApp=AppNWayActiveHTTP</dn>
