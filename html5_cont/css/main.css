@@ -280,5 +280,11 @@ textarea {
 }
 
 body{
-    background: url('../img/lizard_hehehe.jpg') no-repeat fixed center;
+    background: url('../img/eve.png') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.title{
+    text-align: center;
+    color: #fff;
 }
