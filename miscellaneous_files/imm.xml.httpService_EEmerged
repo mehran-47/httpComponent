@@ -3673,6 +3673,18 @@ to ensure that default global values in the implementation are also changed acco
 	<!-- -->
 	<object class="SaAmfAppBaseType">
 		<dn>safAppType=OpenSafApplicationType</dn>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfAppBaseType</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>		
 	</object>
 	<object class="SaAmfApplication">
 		<dn>safApp=OpenSAF</dn>
@@ -3680,6 +3692,18 @@ to ensure that default global values in the implementation are also changed acco
 			<name>saAmfAppType</name>
 			<value>safVersion=4.0.0,safAppType=OpenSafApplicationType</value>
 		</attr>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfApplication</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>		
 	</object>
 	<object class="SaAmfApplication">
 		<dn>safApp=safAmfService</dn>
@@ -3687,6 +3711,18 @@ to ensure that default global values in the implementation are also changed acco
 			<name>saAmfAppType</name>
 			<value>safVersion=4.0.0,safAppType=OpenSafApplicationType</value>
 		</attr>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfApplication</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>		
 	</object>
 	<object class="SaAmfApplication">
 		<dn>safApp=safCkptService</dn>
@@ -3694,6 +3730,18 @@ to ensure that default global values in the implementation are also changed acco
 			<name>saAmfAppType</name>
 			<value>safVersion=4.0.0,safAppType=OpenSafApplicationType</value>
 		</attr>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfApplication</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>		
 	</object>
 	<object class="SaAmfApplication">
 		<dn>safApp=safClmService</dn>
@@ -3701,6 +3749,18 @@ to ensure that default global values in the implementation are also changed acco
 			<name>saAmfAppType</name>
 			<value>safVersion=4.0.0,safAppType=OpenSafApplicationType</value>
 		</attr>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfApplication</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>		
 	</object>
 	<object class="SaAmfApplication">
 		<dn>safApp=safEvtService</dn>
@@ -3708,6 +3768,18 @@ to ensure that default global values in the implementation are also changed acco
 			<name>saAmfAppType</name>
 			<value>safVersion=4.0.0,safAppType=OpenSafApplicationType</value>
 		</attr>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfApplication</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>		
 	</object>
 	<object class="SaAmfApplication">
 		<dn>safApp=safImmService</dn>
@@ -3715,6 +3787,18 @@ to ensure that default global values in the implementation are also changed acco
 			<name>saAmfAppType</name>
 			<value>safVersion=4.0.0,safAppType=OpenSafApplicationType</value>
 		</attr>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfApplication</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>		
 	</object>
 	<object class="SaAmfApplication">
 		<dn>safApp=safLockService</dn>
@@ -3722,6 +3806,18 @@ to ensure that default global values in the implementation are also changed acco
 			<name>saAmfAppType</name>
 			<value>safVersion=4.0.0,safAppType=OpenSafApplicationType</value>
 		</attr>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfApplication</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>		
 	</object>
 	<object class="SaAmfApplication">
 		<dn>safApp=safLogService</dn>
@@ -3729,6 +3825,18 @@ to ensure that default global values in the implementation are also changed acco
 			<name>saAmfAppType</name>
 			<value>safVersion=4.0.0,safAppType=OpenSafApplicationType</value>
 		</attr>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfApplication</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>		
 	</object>
 	<object class="SaAmfApplication">
 		<dn>safApp=safMsgService</dn>
@@ -3736,6 +3844,18 @@ to ensure that default global values in the implementation are also changed acco
 			<name>saAmfAppType</name>
 			<value>safVersion=4.0.0,safAppType=OpenSafApplicationType</value>
 		</attr>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfApplication</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>		
 	</object>
 	<object class="SaAmfApplication">
 		<dn>safApp=safSmfService</dn>
@@ -3743,60 +3863,288 @@ to ensure that default global values in the implementation are also changed acco
 			<name>saAmfAppType</name>
 			<value>safVersion=4.0.0,safAppType=OpenSafApplicationType</value>
 		</attr>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfApplication</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>		
 	</object>
 	<object class="SaAmfCSBaseType">
 		<dn>safCSType=AMFWDOG-OpenSAF</dn>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfCSBaseType</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>		
 	</object>
 	<object class="SaAmfCSBaseType">
 		<dn>safCSType=CLM-OpenSAF</dn>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfCSBaseType</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>		
 	</object>
 	<object class="SaAmfCSBaseType">
 		<dn>safCSType=CLMNA-OpenSAF</dn>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfCSBaseType</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>		
 	</object>
 	<object class="SaAmfCSBaseType">
 		<dn>safCSType=CPD-OpenSAF</dn>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfCSBaseType</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>		
 	</object>
 	<object class="SaAmfCSBaseType">
 		<dn>safCSType=CPND-OpenSAF</dn>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfCSBaseType</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>		
 	</object>
 	<object class="SaAmfCSBaseType">
 		<dn>safCSType=EDS-OpenSAF</dn>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfCSBaseType</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>		
 	</object>
 	<object class="SaAmfCSBaseType">
 		<dn>safCSType=FMS-OpenSAF</dn>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfCSBaseType</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>		
 	</object>
 	<object class="SaAmfCSBaseType">
 		<dn>safCSType=GLD-OpenSAF</dn>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfCSBaseType</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>		
 	</object>
 	<object class="SaAmfCSBaseType">
 		<dn>safCSType=GLND-OpenSAF</dn>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfCSBaseType</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>		
 	</object>
 	<object class="SaAmfCSBaseType">
 		<dn>safCSType=IMMD-OpenSAF</dn>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfCSBaseType</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>		
 	</object>
 	<object class="SaAmfCSBaseType">
 		<dn>safCSType=IMMND-OpenSAF</dn>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfCSBaseType</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>		
 	</object>
 	<object class="SaAmfCSBaseType">
 		<dn>safCSType=LOG-OpenSAF</dn>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfCSBaseType</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>		
 	</object>
 	<object class="SaAmfCSBaseType">
 		<dn>safCSType=MQD-OpenSAF</dn>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfCSBaseType</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>		
 	</object>
 	<object class="SaAmfCSBaseType">
 		<dn>safCSType=MQND-OpenSAF</dn>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfCSBaseType</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>		
 	</object>
 	<object class="SaAmfCSBaseType">
 		<dn>safCSType=NTF-OpenSAF</dn>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfCSBaseType</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>		
 	</object>
 	<object class="SaAmfCSBaseType">
 		<dn>safCSType=RDE-OpenSAF</dn>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfCSBaseType</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>		
 	</object>
 	<object class="SaAmfCSBaseType">
 		<dn>safCSType=SMF-OpenSAF</dn>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfCSBaseType</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>		
 	</object>
 	<object class="SaAmfCSBaseType">
 		<dn>safCSType=SMFND-OpenSAF</dn>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfCSBaseType</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>		
 	</object>
 	<object class="SaAmfCluster">
 		<dn>safAmfCluster=myAmfCluster</dn>
@@ -3808,81 +4156,393 @@ to ensure that default global values in the implementation are also changed acco
 			<name>saAmfClusterClmCluster</name>
 			<value>safCluster=myClmCluster</value>
 		</attr>
+		<attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfCluster</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>
 	</object>
 	<object class="SaAmfCompBaseType">
 		<dn>safCompType=OpenSafCompTypeAMFWDOG</dn>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfCompBaseType</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>		
 	</object>
 	<object class="SaAmfCompBaseType">
 		<dn>safCompType=OpenSafCompTypeCLM</dn>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfCompBaseType</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>		
 	</object>
 	<object class="SaAmfCompBaseType">
 		<dn>safCompType=OpenSafCompTypeCLMNA</dn>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfCompBaseType</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>		
 	</object>
 	<object class="SaAmfCompBaseType">
 		<dn>safCompType=OpenSafCompTypeCPD</dn>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfCompBaseType</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>		
 	</object>
 	<object class="SaAmfCompBaseType">
 		<dn>safCompType=OpenSafCompTypeCPND</dn>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfCompBaseType</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>		
 	</object>
 	<object class="SaAmfCompBaseType">
 		<dn>safCompType=OpenSafCompTypeEDS</dn>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfCompBaseType</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>		
 	</object>
 	<object class="SaAmfCompBaseType">
 		<dn>safCompType=OpenSafCompTypeFMS</dn>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfCompBaseType</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>		
 	</object>
 	<object class="SaAmfCompBaseType">
 		<dn>safCompType=OpenSafCompTypeGLD</dn>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfCompBaseType</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>		
 	</object>
 	<object class="SaAmfCompBaseType">
 		<dn>safCompType=OpenSafCompTypeGLND</dn>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfCompBaseType</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>		
 	</object>
 	<object class="SaAmfCompBaseType">
 		<dn>safCompType=OpenSafCompTypeIMMD</dn>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfCompBaseType</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>		
 	</object>
 	<object class="SaAmfCompBaseType">
 		<dn>safCompType=OpenSafCompTypeIMMND</dn>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfCompBaseType</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>		
 	</object>
 	<object class="SaAmfCompBaseType">
 		<dn>safCompType=OpenSafCompTypeLOG</dn>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfCompBaseType</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>		
 	</object>
 	<object class="SaAmfCompBaseType">
 		<dn>safCompType=OpenSafCompTypeMQD</dn>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfCompBaseType</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>		
 	</object>
 	<object class="SaAmfCompBaseType">
 		<dn>safCompType=OpenSafCompTypeMQND</dn>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfCompBaseType</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>		
 	</object>
 	<object class="SaAmfCompBaseType">
 		<dn>safCompType=OpenSafCompTypeNTF</dn>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfCompBaseType</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>		
 	</object>
 	<object class="SaAmfCompBaseType">
 		<dn>safCompType=OpenSafCompTypeRDE</dn>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfCompBaseType</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>		
 	</object>
 	<object class="SaAmfCompBaseType">
 		<dn>safCompType=OpenSafCompTypeSMF</dn>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfCompBaseType</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>		
 	</object>
 	<object class="SaAmfCompBaseType">
 		<dn>safCompType=OpenSafCompTypeSMFND</dn>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfCompBaseType</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>		
 	</object>
 	<object class="SaAmfSGBaseType">
 		<dn>safSgType=OpenSafSgType2N</dn>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfSGBaseType</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>			
 	</object>
 	<object class="SaAmfSGBaseType">
 		<dn>safSgType=OpenSafSgTypeNoRed</dn>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfSGBaseType</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>		
 	</object>
 	<object class="SaAmfSUBaseType">
 		<dn>safSuType=OpenSafSuTypeND</dn>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfSUBaseType</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>		
 	</object>
 	<object class="SaAmfSUBaseType">
 		<dn>safSuType=OpenSafSuTypeServer</dn>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfSUBaseType</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>		
 	</object>
 	<object class="SaAmfSvcBaseType">
 		<dn>safSvcType=NoRed-OpenSAF</dn>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfSvcBaseType</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>			
 	</object>
 	<object class="SaAmfSvcBaseType">
 		<dn>safSvcType=SC-2N-OpenSAF</dn>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfSvcBaseType</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>			
 	</object>
 	<object class="SaClmCluster">
 		<dn>safCluster=myClmCluster</dn>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safClmService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaClmCluster</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>		
 	</object>
 	<object class="SaSmfSwBundle">
 		<dn>safSmfBundle=OpenSAF</dn>
@@ -3968,6 +4628,18 @@ to ensure that default global values in the implementation are also changed acco
 			<name>smfVerifyTimeout</name>
 			<value>100000000000</value>
 		</attr>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safSmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>OpenSafSmfConfig</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>		
 	</object>
 	<object class="SaAmfAppType">
 		<dn>safVersion=4.0.0,safAppType=OpenSafApplicationType</dn>
@@ -3976,63 +4648,303 @@ to ensure that default global values in the implementation are also changed acco
 			<value>safVersion=4.0.0,safSgType=OpenSafSgType2N</value>
 			<value>safVersion=4.0.0,safSgType=OpenSafSgTypeNoRed</value>
 		</attr>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfAppType</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>		
 	</object>
 	<object class="SaAmfCSType">
 		<dn>safVersion=4.0.0,safCSType=AMFWDOG-OpenSAF</dn>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfCSType</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>		
 	</object>
 	<object class="SaAmfCSType">
 		<dn>safVersion=4.0.0,safCSType=CLM-OpenSAF</dn>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfCSType</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>		
 	</object>
 	<object class="SaAmfCSType">
 		<dn>safVersion=4.0.0,safCSType=CLMNA-OpenSAF</dn>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfCSType</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>		
 	</object>
 	<object class="SaAmfCSType">
 		<dn>safVersion=4.0.0,safCSType=CPD-OpenSAF</dn>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfCSType</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>		
 	</object>
 	<object class="SaAmfCSType">
 		<dn>safVersion=4.0.0,safCSType=CPND-OpenSAF</dn>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfCSType</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>		
 	</object>
 	<object class="SaAmfCSType">
 		<dn>safVersion=4.0.0,safCSType=EDS-OpenSAF</dn>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfCSType</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>		
 	</object>
 	<object class="SaAmfCSType">
 		<dn>safVersion=4.0.0,safCSType=FMS-OpenSAF</dn>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfCSType</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>		
 	</object>
 	<object class="SaAmfCSType">
 		<dn>safVersion=4.0.0,safCSType=GLD-OpenSAF</dn>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfCSType</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>		
 	</object>
 	<object class="SaAmfCSType">
 		<dn>safVersion=4.0.0,safCSType=GLND-OpenSAF</dn>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfCSType</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>		
 	</object>
 	<object class="SaAmfCSType">
 		<dn>safVersion=4.0.0,safCSType=IMMD-OpenSAF</dn>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfCSType</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>		
 	</object>
 	<object class="SaAmfCSType">
 		<dn>safVersion=4.0.0,safCSType=IMMND-OpenSAF</dn>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfCSType</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>		
 	</object>
 	<object class="SaAmfCSType">
 		<dn>safVersion=4.0.0,safCSType=LOG-OpenSAF</dn>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfCSType</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>		
 	</object>
 	<object class="SaAmfCSType">
 		<dn>safVersion=4.0.0,safCSType=MQD-OpenSAF</dn>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfCSType</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>		
 	</object>
 	<object class="SaAmfCSType">
 		<dn>safVersion=4.0.0,safCSType=MQND-OpenSAF</dn>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfCSType</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>		
 	</object>
 	<object class="SaAmfCSType">
 		<dn>safVersion=4.0.0,safCSType=NTF-OpenSAF</dn>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfCSType</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>		
 	</object>
 	<object class="SaAmfCSType">
 		<dn>safVersion=4.0.0,safCSType=RDE-OpenSAF</dn>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfCSType</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>		
 	</object>
 	<object class="SaAmfCSType">
 		<dn>safVersion=4.0.0,safCSType=SMF-OpenSAF</dn>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfCSType</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>		
 	</object>
 	<object class="SaAmfCSType">
 		<dn>safVersion=4.0.0,safCSType=SMFND-OpenSAF</dn>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfCSType</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>		
 	</object>
 	<object class="SaAmfCompGlobalAttributes">
 		<dn>safRdn=compGlobalAttributes,safApp=safAmfService</dn>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfCSType</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>		
 	</object>
 	<object class="SaAmfCompType">
 		<dn>safVersion=4.0.0,safCompType=OpenSafCompTypeAMFWDOG</dn>
@@ -4076,6 +4988,18 @@ to ensure that default global values in the implementation are also changed acco
 			<name>saAmfCtDefRecoveryOnError</name>
 			<value>2</value>
 		</attr>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfCompType</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>		
 	</object>
 	<object class="SaAmfCompType">
 		<dn>safVersion=4.0.0,safCompType=OpenSafCompTypeCLM</dn>
@@ -4127,6 +5051,18 @@ to ensure that default global values in the implementation are also changed acco
 			<name>saAmfCtDefDisableRestart</name>
 			<value>1</value>
 		</attr>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfCompType</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>		
 	</object>
 	<object class="SaAmfCompType">
 		<dn>safVersion=4.0.0,safCompType=OpenSafCompTypeCLMNA</dn>
@@ -4178,6 +5114,18 @@ to ensure that default global values in the implementation are also changed acco
 			<name>saAmfCtDefDisableRestart</name>
 			<value>1</value>
 		</attr>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfCompType</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>		
 	</object>
 	<object class="SaAmfCompType">
 		<dn>safVersion=4.0.0,safCompType=OpenSafCompTypeCPD</dn>
@@ -4221,6 +5169,18 @@ to ensure that default global values in the implementation are also changed acco
 			<name>saAmfCtDefRecoveryOnError</name>
 			<value>6</value>
 		</attr>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfCompType</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>		
 	</object>
 	<object class="SaAmfCompType">
 		<dn>safVersion=4.0.0,safCompType=OpenSafCompTypeCPND</dn>
@@ -4264,6 +5224,18 @@ to ensure that default global values in the implementation are also changed acco
 			<name>saAmfCtDefRecoveryOnError</name>
 			<value>2</value>
 		</attr>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfCompType</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>		
 	</object>
 	<object class="SaAmfCompType">
 		<dn>safVersion=4.0.0,safCompType=OpenSafCompTypeEDS</dn>
@@ -4311,6 +5283,18 @@ to ensure that default global values in the implementation are also changed acco
 			<name>saAmfCtDefDisableRestart</name>
 			<value>1</value>
 		</attr>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfCompType</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>		
 	</object>
 	<object class="SaAmfCompType">
 		<dn>safVersion=4.0.0,safCompType=OpenSafCompTypeFMS</dn>
@@ -4354,6 +5338,18 @@ to ensure that default global values in the implementation are also changed acco
 			<name>saAmfCtDefRecoveryOnError</name>
 			<value>6</value>
 		</attr>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfCompType</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>		
 	</object>
 	<object class="SaAmfCompType">
 		<dn>safVersion=4.0.0,safCompType=OpenSafCompTypeGLD</dn>
@@ -4397,6 +5393,18 @@ to ensure that default global values in the implementation are also changed acco
 			<name>saAmfCtDefRecoveryOnError</name>
 			<value>6</value>
 		</attr>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfCompType</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>		
 	</object>
 	<object class="SaAmfCompType">
 		<dn>safVersion=4.0.0,safCompType=OpenSafCompTypeGLND</dn>
@@ -4440,6 +5448,18 @@ to ensure that default global values in the implementation are also changed acco
 			<name>saAmfCtDefRecoveryOnError</name>
 			<value>2</value>
 		</attr>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfCompType</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>		
 	</object>
 	<object class="SaAmfCompType">
 		<dn>safVersion=4.0.0,safCompType=OpenSafCompTypeIMMD</dn>
@@ -4487,6 +5507,18 @@ to ensure that default global values in the implementation are also changed acco
 			<name>saAmfCtDefDisableRestart</name>
 			<value>1</value>
 		</attr>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfCompType</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>		
 	</object>
 	<object class="SaAmfCompType">
 		<dn>safVersion=4.0.0,safCompType=OpenSafCompTypeIMMND</dn>
@@ -4530,6 +5562,18 @@ to ensure that default global values in the implementation are also changed acco
 			<name>saAmfCtDefRecoveryOnError</name>
 			<value>2</value>
 		</attr>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfCompType</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>		
 	</object>
 	<object class="SaAmfCompType">
 		<dn>safVersion=4.0.0,safCompType=OpenSafCompTypeLOG</dn>
@@ -4577,6 +5621,18 @@ to ensure that default global values in the implementation are also changed acco
 			<name>saAmfCtDefDisableRestart</name>
 			<value>1</value>
 		</attr>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfCompType</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>		
 	</object>
 	<object class="SaAmfCompType">
 		<dn>safVersion=4.0.0,safCompType=OpenSafCompTypeMQD</dn>
@@ -4620,6 +5676,18 @@ to ensure that default global values in the implementation are also changed acco
 			<name>saAmfCtDefRecoveryOnError</name>
 			<value>6</value>
 		</attr>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfCompType</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>		
 	</object>
 	<object class="SaAmfCompType">
 		<dn>safVersion=4.0.0,safCompType=OpenSafCompTypeMQND</dn>
@@ -4663,6 +5731,18 @@ to ensure that default global values in the implementation are also changed acco
 			<name>saAmfCtDefRecoveryOnError</name>
 			<value>2</value>
 		</attr>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfCompType</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>		
 	</object>
 	<object class="SaAmfCompType">
 		<dn>safVersion=4.0.0,safCompType=OpenSafCompTypeNTF</dn>
@@ -4714,6 +5794,18 @@ to ensure that default global values in the implementation are also changed acco
 			<name>saAmfCtDefDisableRestart</name>
 			<value>1</value>
 		</attr>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfCompType</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>		
 	</object>
 	<object class="SaAmfCompType">
 		<dn>safVersion=4.0.0,safCompType=OpenSafCompTypeRDE</dn>
@@ -4757,6 +5849,18 @@ to ensure that default global values in the implementation are also changed acco
 			<name>saAmfCtDefRecoveryOnError</name>
 			<value>6</value>
 		</attr>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfCompType</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>		
 	</object>
 	<object class="SaAmfCompType">
 		<dn>safVersion=4.0.0,safCompType=OpenSafCompTypeSMF</dn>
@@ -4800,6 +5904,18 @@ to ensure that default global values in the implementation are also changed acco
 			<name>saAmfCtDefRecoveryOnError</name>
 			<value>6</value>
 		</attr>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfCompType</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>		
 	</object>
 	<object class="SaAmfCompType">
 		<dn>safVersion=4.0.0,safCompType=OpenSafCompTypeSMFND</dn>
@@ -4843,6 +5959,18 @@ to ensure that default global values in the implementation are also changed acco
 			<name>saAmfCtDefRecoveryOnError</name>
 			<value>2</value>
 		</attr>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfCompType</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>		
 	</object>
 	<object class="SaAmfNodeGroup">
 		<dn>safAmfNodeGroup=AllNodes,safAmfCluster=myAmfCluster</dn>
@@ -4852,6 +5980,18 @@ to ensure that default global values in the implementation are also changed acco
 			<value>safAmfNode=SC-2,safAmfCluster=myAmfCluster</value>
 			<value>safAmfNode=PL-3,safAmfCluster=myAmfCluster</value>
 		</attr>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfNodeGroup</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>		
 	</object>
 	<object class="SaAmfNodeGroup">
 		<dn>safAmfNodeGroup=PLs,safAmfCluster=myAmfCluster</dn>
@@ -4859,6 +5999,18 @@ to ensure that default global values in the implementation are also changed acco
 			<name>saAmfNGNodeList</name>
 			<value>safAmfNode=PL-3,safAmfCluster=myAmfCluster</value>
 		</attr>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfNodeGroup</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>		
 	</object>
 	<object class="SaAmfNodeGroup">
 		<dn>safAmfNodeGroup=SCs,safAmfCluster=myAmfCluster</dn>
@@ -4867,6 +6019,18 @@ to ensure that default global values in the implementation are also changed acco
 			<value>safAmfNode=SC-1,safAmfCluster=myAmfCluster</value>
 			<value>safAmfNode=SC-2,safAmfCluster=myAmfCluster</value>
 		</attr>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfNodeGroup</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>		
 	</object>
 	<object class="SaAmfNode">
 		<dn>safAmfNode=PL-3,safAmfCluster=myAmfCluster</dn>
@@ -4882,6 +6046,14 @@ to ensure that default global values in the implementation are also changed acco
 			<name>saAmfNodeClmNode</name>
 			<value>safNode=node3,safCluster=myClmCluster</value>
 		</attr>
+		<attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfNode</value>
+	    </attr>		
 	</object>
 	<object class="SaAmfNode">
 		<dn>safAmfNode=SC-1,safAmfCluster=myAmfCluster</dn>
@@ -4897,6 +6069,14 @@ to ensure that default global values in the implementation are also changed acco
 			<name>saAmfNodeClmNode</name>
 			<value>safNode=node1,safCluster=myClmCluster</value>
 		</attr>
+		<attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfNode</value>
+	    </attr>		
 	</object>
 	<object class="SaAmfNode">
 		<dn>safAmfNode=SC-2,safAmfCluster=myAmfCluster</dn>
@@ -4912,6 +6092,14 @@ to ensure that default global values in the implementation are also changed acco
 			<name>saAmfNodeClmNode</name>
 			<value>safNode=node2,safCluster=myClmCluster</value>
 		</attr>
+		<attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfNode</value>
+	    </attr>		
 	</object>
 	<object class="SaAmfSGType">
 		<dn>safVersion=4.0.0,safSgType=OpenSafSgType2N</dn>
@@ -4943,6 +6131,18 @@ to ensure that default global values in the implementation are also changed acco
 			<name>saAmfSgtDefSuRestartMax</name>
 			<value>10</value>
 		</attr>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfSGType</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>		
 	</object>
 	<object class="SaAmfSGType">
 		<dn>safVersion=4.0.0,safSgType=OpenSafSgTypeNoRed</dn>
@@ -4974,6 +6174,18 @@ to ensure that default global values in the implementation are also changed acco
 			<name>saAmfSgtDefSuRestartMax</name>
 			<value>10</value>
 		</attr>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfSGType</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>		
 	</object>
 	<object class="SaAmfSG">
 		<dn>safSg=2N,safApp=OpenSAF</dn>
@@ -5001,6 +6213,18 @@ to ensure that default global values in the implementation are also changed acco
 			<name>saAmfSGNumPrefAssignedSUs</name>
 			<value>10</value>
 		</attr>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfSGType</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>		
 	</object>
 	<object class="SaAmfSG">
 		<dn>safSg=NoRed,safApp=OpenSAF</dn>
@@ -5032,6 +6256,18 @@ to ensure that default global values in the implementation are also changed acco
 			<name>saAmfSGAutoAdjustProb</name>
 			<value>0</value>
 		</attr>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfSGType</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>		
 	</object>
 	<object class="SaAmfSI">
 		<dn>safSi=NoRed1,safApp=OpenSAF</dn>
@@ -5103,6 +6339,18 @@ to ensure that default global values in the implementation are also changed acco
 			<name>saAmfSutProvidesSvcTypes</name>
 			<value>safVersion=4.0.0,safSvcType=NoRed-OpenSAF</value>
 		</attr>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfSUType</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>		
 	</object>
 	<object class="SaAmfSUType">
 		<dn>safVersion=4.0.0,safSuType=OpenSafSuTypeServer</dn>
@@ -5118,12 +6366,48 @@ to ensure that default global values in the implementation are also changed acco
 			<name>saAmfSutProvidesSvcTypes</name>
 			<value>safVersion=4.0.0,safSvcType=SC-2N-OpenSAF</value>
 		</attr>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfSUType</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>		
 	</object>
 	<object class="SaAmfSvcType">
 		<dn>safVersion=4.0.0,safSvcType=NoRed-OpenSAF</dn>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfSvcType</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>		
 	</object>
 	<object class="SaAmfSvcType">
 		<dn>safVersion=4.0.0,safSvcType=SC-2N-OpenSAF</dn>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfSvcType</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>		
 	</object>
 	<object class="SaClmNode">
 		<dn>safNode=node1,safCluster=myClmCluster</dn>
@@ -5228,6 +6512,18 @@ to ensure that default global values in the implementation are also changed acco
 			<name>saAmfCSType</name>
 			<value>safVersion=4.0.0,safCSType=AMFWDOG-OpenSAF</value>
 		</attr>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfCSI</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>		
 	</object>
 	<object class="SaAmfCSI">
 		<dn>safCsi=AMFWDOG,safSi=NoRed2,safApp=OpenSAF</dn>
@@ -5235,6 +6531,18 @@ to ensure that default global values in the implementation are also changed acco
 			<name>saAmfCSType</name>
 			<value>safVersion=4.0.0,safCSType=AMFWDOG-OpenSAF</value>
 		</attr>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfCSI</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>		
 	</object>
 	<object class="SaAmfCSI">
 		<dn>safCsi=AMFWDOG,safSi=NoRed3,safApp=OpenSAF</dn>
@@ -5242,6 +6550,18 @@ to ensure that default global values in the implementation are also changed acco
 			<name>saAmfCSType</name>
 			<value>safVersion=4.0.0,safCSType=AMFWDOG-OpenSAF</value>
 		</attr>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfCSI</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>		
 	</object>
 	<object class="SaAmfCSI">
 		<dn>safCsi=CLM,safSi=SC-2N,safApp=OpenSAF</dn>
@@ -5253,6 +6573,18 @@ to ensure that default global values in the implementation are also changed acco
 			<name>saAmfCSIDependencies</name>
 			<value>safCsi=IMMD,safSi=SC-2N,safApp=OpenSAF</value>
 		</attr>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfCSI</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>		
 	</object>
 	<object class="SaAmfCSI">
 		<dn>safCsi=CLMNA,safSi=NoRed1,safApp=OpenSAF</dn>
@@ -5260,6 +6592,18 @@ to ensure that default global values in the implementation are also changed acco
 			<name>saAmfCSType</name>
 			<value>safVersion=4.0.0,safCSType=CLMNA-OpenSAF</value>
 		</attr>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfCSI</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>		
 	</object>
 	<object class="SaAmfCSI">
 		<dn>safCsi=CLMNA,safSi=NoRed2,safApp=OpenSAF</dn>
@@ -5267,6 +6611,18 @@ to ensure that default global values in the implementation are also changed acco
 			<name>saAmfCSType</name>
 			<value>safVersion=4.0.0,safCSType=CLMNA-OpenSAF</value>
 		</attr>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfCSI</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>		
 	</object>
 	<object class="SaAmfCSI">
 		<dn>safCsi=CLMNA,safSi=NoRed3,safApp=OpenSAF</dn>
@@ -5274,6 +6630,18 @@ to ensure that default global values in the implementation are also changed acco
 			<name>saAmfCSType</name>
 			<value>safVersion=4.0.0,safCSType=CLMNA-OpenSAF</value>
 		</attr>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfCSI</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>		
 	</object>
 	<object class="SaAmfCSI">
 		<dn>safCsi=CPD,safSi=SC-2N,safApp=OpenSAF</dn>
@@ -5285,6 +6653,18 @@ to ensure that default global values in the implementation are also changed acco
 			<name>saAmfCSIDependencies</name>
 			<value>safCsi=IMMD,safSi=SC-2N,safApp=OpenSAF</value>
 		</attr>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfCSI</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>		
 	</object>
 	<object class="SaAmfCSI">
 		<dn>safCsi=CPND,safSi=NoRed1,safApp=OpenSAF</dn>
@@ -5292,6 +6672,18 @@ to ensure that default global values in the implementation are also changed acco
 			<name>saAmfCSType</name>
 			<value>safVersion=4.0.0,safCSType=CPND-OpenSAF</value>
 		</attr>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfCSI</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>		
 	</object>
 	<object class="SaAmfCSI">
 		<dn>safCsi=CPND,safSi=NoRed2,safApp=OpenSAF</dn>
@@ -5299,6 +6691,18 @@ to ensure that default global values in the implementation are also changed acco
 			<name>saAmfCSType</name>
 			<value>safVersion=4.0.0,safCSType=CPND-OpenSAF</value>
 		</attr>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfCSI</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>		
 	</object>
 	<object class="SaAmfCSI">
 		<dn>safCsi=CPND,safSi=NoRed3,safApp=OpenSAF</dn>
@@ -5306,6 +6710,18 @@ to ensure that default global values in the implementation are also changed acco
 			<name>saAmfCSType</name>
 			<value>safVersion=4.0.0,safCSType=CPND-OpenSAF</value>
 		</attr>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfCSI</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>		
 	</object>
 	<object class="SaAmfCSI">
 		<dn>safCsi=EDS,safSi=SC-2N,safApp=OpenSAF</dn>
@@ -5317,6 +6733,18 @@ to ensure that default global values in the implementation are also changed acco
 			<name>saAmfCSIDependencies</name>
 			<value>safCsi=IMMD,safSi=SC-2N,safApp=OpenSAF</value>
 		</attr>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfCSI</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>		
 	</object>
 	<object class="SaAmfCSI">
 		<dn>safCsi=FMS,safSi=SC-2N,safApp=OpenSAF</dn>
@@ -5324,6 +6752,18 @@ to ensure that default global values in the implementation are also changed acco
 			<name>saAmfCSType</name>
 			<value>safVersion=4.0.0,safCSType=FMS-OpenSAF</value>
 		</attr>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfCSI</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>		
 	</object>
 	<object class="SaAmfCSI">
 		<dn>safCsi=GLD,safSi=SC-2N,safApp=OpenSAF</dn>
@@ -5335,6 +6775,18 @@ to ensure that default global values in the implementation are also changed acco
 			<name>saAmfCSIDependencies</name>
 			<value>safCsi=IMMD,safSi=SC-2N,safApp=OpenSAF</value>
 		</attr>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfCSI</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>		
 	</object>
 	<object class="SaAmfCSI">
 		<dn>safCsi=GLND,safSi=NoRed1,safApp=OpenSAF</dn>
@@ -5342,6 +6794,18 @@ to ensure that default global values in the implementation are also changed acco
 			<name>saAmfCSType</name>
 			<value>safVersion=4.0.0,safCSType=GLND-OpenSAF</value>
 		</attr>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfCSI</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>		
 	</object>
 	<object class="SaAmfCSI">
 		<dn>safCsi=GLND,safSi=NoRed2,safApp=OpenSAF</dn>
@@ -5349,6 +6813,18 @@ to ensure that default global values in the implementation are also changed acco
 			<name>saAmfCSType</name>
 			<value>safVersion=4.0.0,safCSType=GLND-OpenSAF</value>
 		</attr>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfCSI</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>		
 	</object>
 	<object class="SaAmfCSI">
 		<dn>safCsi=GLND,safSi=NoRed3,safApp=OpenSAF</dn>
@@ -5356,6 +6832,18 @@ to ensure that default global values in the implementation are also changed acco
 			<name>saAmfCSType</name>
 			<value>safVersion=4.0.0,safCSType=GLND-OpenSAF</value>
 		</attr>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfCSI</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>		
 	</object>
 	<object class="SaAmfCSI">
 		<dn>safCsi=IMMD,safSi=SC-2N,safApp=OpenSAF</dn>
@@ -5363,6 +6851,18 @@ to ensure that default global values in the implementation are also changed acco
 			<name>saAmfCSType</name>
 			<value>safVersion=4.0.0,safCSType=IMMD-OpenSAF</value>
 		</attr>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfCSI</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>		
 	</object>
 	<object class="SaAmfCSI">
 		<dn>safCsi=IMMND,safSi=NoRed1,safApp=OpenSAF</dn>
@@ -5370,6 +6870,18 @@ to ensure that default global values in the implementation are also changed acco
 			<name>saAmfCSType</name>
 			<value>safVersion=4.0.0,safCSType=IMMND-OpenSAF</value>
 		</attr>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfCSI</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>		
 	</object>
 	<object class="SaAmfCSI">
 		<dn>safCsi=IMMND,safSi=NoRed2,safApp=OpenSAF</dn>
@@ -5377,6 +6889,18 @@ to ensure that default global values in the implementation are also changed acco
 			<name>saAmfCSType</name>
 			<value>safVersion=4.0.0,safCSType=IMMND-OpenSAF</value>
 		</attr>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfCSI</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>		
 	</object>
 	<object class="SaAmfCSI">
 		<dn>safCsi=IMMND,safSi=NoRed3,safApp=OpenSAF</dn>
@@ -5384,6 +6908,18 @@ to ensure that default global values in the implementation are also changed acco
 			<name>saAmfCSType</name>
 			<value>safVersion=4.0.0,safCSType=IMMND-OpenSAF</value>
 		</attr>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfCSI</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>		
 	</object>
 	<object class="SaAmfCSI">
 		<dn>safCsi=LOG,safSi=SC-2N,safApp=OpenSAF</dn>
@@ -5395,6 +6931,18 @@ to ensure that default global values in the implementation are also changed acco
 			<name>saAmfCSIDependencies</name>
 			<value>safCsi=IMMD,safSi=SC-2N,safApp=OpenSAF</value>
 		</attr>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfCSI</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>		
 	</object>
 	<object class="SaAmfCSI">
 		<dn>safCsi=MQD,safSi=SC-2N,safApp=OpenSAF</dn>
@@ -5406,6 +6954,18 @@ to ensure that default global values in the implementation are also changed acco
 			<name>saAmfCSIDependencies</name>
 			<value>safCsi=IMMD,safSi=SC-2N,safApp=OpenSAF</value>
 		</attr>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfCSI</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>		
 	</object>
 	<object class="SaAmfCSI">
 		<dn>safCsi=MQND,safSi=NoRed1,safApp=OpenSAF</dn>
@@ -5413,6 +6973,18 @@ to ensure that default global values in the implementation are also changed acco
 			<name>saAmfCSType</name>
 			<value>safVersion=4.0.0,safCSType=MQND-OpenSAF</value>
 		</attr>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfCSI</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>		
 	</object>
 	<object class="SaAmfCSI">
 		<dn>safCsi=MQND,safSi=NoRed2,safApp=OpenSAF</dn>
@@ -5420,6 +6992,18 @@ to ensure that default global values in the implementation are also changed acco
 			<name>saAmfCSType</name>
 			<value>safVersion=4.0.0,safCSType=MQND-OpenSAF</value>
 		</attr>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfCSI</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>		
 	</object>
 	<object class="SaAmfCSI">
 		<dn>safCsi=MQND,safSi=NoRed3,safApp=OpenSAF</dn>
@@ -5427,6 +7011,18 @@ to ensure that default global values in the implementation are also changed acco
 			<name>saAmfCSType</name>
 			<value>safVersion=4.0.0,safCSType=MQND-OpenSAF</value>
 		</attr>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfCSI</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>		
 	</object>
 	<object class="SaAmfCSI">
 		<dn>safCsi=NTF,safSi=SC-2N,safApp=OpenSAF</dn>
@@ -5434,6 +7030,18 @@ to ensure that default global values in the implementation are also changed acco
 			<name>saAmfCSType</name>
 			<value>safVersion=4.0.0,safCSType=NTF-OpenSAF</value>
 		</attr>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfCSI</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>		
 	</object>
 	<object class="SaAmfCSI">
 		<dn>safCsi=RDE,safSi=SC-2N,safApp=OpenSAF</dn>
@@ -5441,6 +7049,18 @@ to ensure that default global values in the implementation are also changed acco
 			<name>saAmfCSType</name>
 			<value>safVersion=4.0.0,safCSType=RDE-OpenSAF</value>
 		</attr>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfCSI</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>		
 	</object>
 	<object class="SaAmfCSI">
 		<dn>safCsi=SMF,safSi=SC-2N,safApp=OpenSAF</dn>
@@ -5452,6 +7072,18 @@ to ensure that default global values in the implementation are also changed acco
 			<name>saAmfCSIDependencies</name>
 			<value>safCsi=IMMD,safSi=SC-2N,safApp=OpenSAF</value>
 		</attr>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfCSI</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>		
 	</object>
 	<object class="SaAmfCSI">
 		<dn>safCsi=SMFND,safSi=NoRed1,safApp=OpenSAF</dn>
@@ -5459,6 +7091,18 @@ to ensure that default global values in the implementation are also changed acco
 			<name>saAmfCSType</name>
 			<value>safVersion=4.0.0,safCSType=SMFND-OpenSAF</value>
 		</attr>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfCSI</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>		
 	</object>
 	<object class="SaAmfCSI">
 		<dn>safCsi=SMFND,safSi=NoRed2,safApp=OpenSAF</dn>
@@ -5466,6 +7110,18 @@ to ensure that default global values in the implementation are also changed acco
 			<name>saAmfCSType</name>
 			<value>safVersion=4.0.0,safCSType=SMFND-OpenSAF</value>
 		</attr>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfCSI</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>		
 	</object>
 	<object class="SaAmfCSI">
 		<dn>safCsi=SMFND,safSi=NoRed3,safApp=OpenSAF</dn>
@@ -5473,6 +7129,18 @@ to ensure that default global values in the implementation are also changed acco
 			<name>saAmfCSType</name>
 			<value>safVersion=4.0.0,safCSType=SMFND-OpenSAF</value>
 		</attr>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfCSI</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>		
 	</object>
 	<object class="SaAmfCtCsType">
 		<dn>safSupportedCsType=safVersion=4.0.0\,safCSType=AMFWDOG-OpenSAF,safVersion=4.0.0,safCompType=OpenSafCompTypeAMFWDOG</dn>
@@ -6009,9 +7677,33 @@ to ensure that default global values in the implementation are also changed acco
 			<value>val1</value>
 			<value>val2</value>
 		</attr>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfCSIAttribute</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>		
 	</object>
 	<object class="SaAmfCSIAttribute">
 		<dn>safCsiAttr=Attr2,safCsi=GLND,safSi=NoRed3,safApp=OpenSAF</dn>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfCSIAttribute</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>		
 	</object>
 	<object class="SaAmfComp">
 		<dn>safComp=AMFWDOG,safSu=PL-3,safSg=NoRed,safApp=OpenSAF</dn>
@@ -6019,6 +7711,18 @@ to ensure that default global values in the implementation are also changed acco
 			<name>saAmfCompType</name>
 			<value>safVersion=4.0.0,safCompType=OpenSafCompTypeAMFWDOG</value>
 		</attr>
+	   <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfComp</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>		
 	</object>
 	<object class="SaAmfComp">
 		<dn>safComp=AMFWDOG,safSu=SC-1,safSg=NoRed,safApp=OpenSAF</dn>
@@ -6026,6 +7730,18 @@ to ensure that default global values in the implementation are also changed acco
 			<name>saAmfCompType</name>
 			<value>safVersion=4.0.0,safCompType=OpenSafCompTypeAMFWDOG</value>
 		</attr>
+	   <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfComp</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>			
 	</object>
 	<object class="SaAmfComp">
 		<dn>safComp=AMFWDOG,safSu=SC-2,safSg=NoRed,safApp=OpenSAF</dn>
@@ -6033,6 +7749,18 @@ to ensure that default global values in the implementation are also changed acco
 			<name>saAmfCompType</name>
 			<value>safVersion=4.0.0,safCompType=OpenSafCompTypeAMFWDOG</value>
 		</attr>
+	   <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfComp</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>			
 	</object>
 	<object class="SaAmfComp">
 		<dn>safComp=CLM,safSu=SC-1,safSg=2N,safApp=OpenSAF</dn>
@@ -6040,6 +7768,18 @@ to ensure that default global values in the implementation are also changed acco
 			<name>saAmfCompType</name>
 			<value>safVersion=4.0.0,safCompType=OpenSafCompTypeCLM</value>
 		</attr>
+	   <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfComp</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>			
 	</object>
 	<object class="SaAmfComp">
 		<dn>safComp=CLM,safSu=SC-2,safSg=2N,safApp=OpenSAF</dn>
@@ -6047,6 +7787,18 @@ to ensure that default global values in the implementation are also changed acco
 			<name>saAmfCompType</name>
 			<value>safVersion=4.0.0,safCompType=OpenSafCompTypeCLM</value>
 		</attr>
+	   <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfComp</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>			
 	</object>
 	<object class="SaAmfComp">
 		<dn>safComp=CLMNA,safSu=PL-3,safSg=NoRed,safApp=OpenSAF</dn>
@@ -6054,6 +7806,18 @@ to ensure that default global values in the implementation are also changed acco
 			<name>saAmfCompType</name>
 			<value>safVersion=4.0.0,safCompType=OpenSafCompTypeCLMNA</value>
 		</attr>
+	   <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfComp</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>			
 	</object>
 	<object class="SaAmfComp">
 		<dn>safComp=CLMNA,safSu=SC-1,safSg=NoRed,safApp=OpenSAF</dn>
@@ -6061,6 +7825,18 @@ to ensure that default global values in the implementation are also changed acco
 			<name>saAmfCompType</name>
 			<value>safVersion=4.0.0,safCompType=OpenSafCompTypeCLMNA</value>
 		</attr>
+	   <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfComp</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>			
 	</object>
 	<object class="SaAmfComp">
 		<dn>safComp=CLMNA,safSu=SC-2,safSg=NoRed,safApp=OpenSAF</dn>
@@ -6068,6 +7844,18 @@ to ensure that default global values in the implementation are also changed acco
 			<name>saAmfCompType</name>
 			<value>safVersion=4.0.0,safCompType=OpenSafCompTypeCLMNA</value>
 		</attr>
+	   <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfComp</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>			
 	</object>
 	<object class="SaAmfComp">
 		<dn>safComp=CPD,safSu=SC-1,safSg=2N,safApp=OpenSAF</dn>
@@ -6075,6 +7863,18 @@ to ensure that default global values in the implementation are also changed acco
 			<name>saAmfCompType</name>
 			<value>safVersion=4.0.0,safCompType=OpenSafCompTypeCPD</value>
 		</attr>
+	   <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfComp</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>			
 	</object>
 	<object class="SaAmfComp">
 		<dn>safComp=CPD,safSu=SC-2,safSg=2N,safApp=OpenSAF</dn>
@@ -6082,6 +7882,18 @@ to ensure that default global values in the implementation are also changed acco
 			<name>saAmfCompType</name>
 			<value>safVersion=4.0.0,safCompType=OpenSafCompTypeCPD</value>
 		</attr>
+	   <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfComp</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>			
 	</object>
 	<object class="SaAmfComp">
 		<dn>safComp=CPND,safSu=PL-3,safSg=NoRed,safApp=OpenSAF</dn>
@@ -6089,6 +7901,18 @@ to ensure that default global values in the implementation are also changed acco
 			<name>saAmfCompType</name>
 			<value>safVersion=4.0.0,safCompType=OpenSafCompTypeCPND</value>
 		</attr>
+	   <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfComp</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>			
 	</object>
 	<object class="SaAmfComp">
 		<dn>safComp=CPND,safSu=SC-1,safSg=NoRed,safApp=OpenSAF</dn>
@@ -6096,6 +7920,18 @@ to ensure that default global values in the implementation are also changed acco
 			<name>saAmfCompType</name>
 			<value>safVersion=4.0.0,safCompType=OpenSafCompTypeCPND</value>
 		</attr>
+	   <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfComp</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>			
 	</object>
 	<object class="SaAmfComp">
 		<dn>safComp=CPND,safSu=SC-2,safSg=NoRed,safApp=OpenSAF</dn>
@@ -6103,6 +7939,18 @@ to ensure that default global values in the implementation are also changed acco
 			<name>saAmfCompType</name>
 			<value>safVersion=4.0.0,safCompType=OpenSafCompTypeCPND</value>
 		</attr>
+	   <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfComp</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>			
 	</object>
 	<object class="SaAmfComp">
 		<dn>safComp=EDS,safSu=SC-1,safSg=2N,safApp=OpenSAF</dn>
@@ -6110,6 +7958,18 @@ to ensure that default global values in the implementation are also changed acco
 			<name>saAmfCompType</name>
 			<value>safVersion=4.0.0,safCompType=OpenSafCompTypeEDS</value>
 		</attr>
+	   <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfComp</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>			
 	</object>
 	<object class="SaAmfComp">
 		<dn>safComp=EDS,safSu=SC-2,safSg=2N,safApp=OpenSAF</dn>
@@ -6117,6 +7977,18 @@ to ensure that default global values in the implementation are also changed acco
 			<name>saAmfCompType</name>
 			<value>safVersion=4.0.0,safCompType=OpenSafCompTypeEDS</value>
 		</attr>
+	   <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfComp</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>			
 	</object>
 	<object class="SaAmfComp">
 		<dn>safComp=FMS,safSu=SC-1,safSg=2N,safApp=OpenSAF</dn>
@@ -6124,6 +7996,18 @@ to ensure that default global values in the implementation are also changed acco
 			<name>saAmfCompType</name>
 			<value>safVersion=4.0.0,safCompType=OpenSafCompTypeFMS</value>
 		</attr>
+	   <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfComp</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>			
 	</object>
 	<object class="SaAmfComp">
 		<dn>safComp=FMS,safSu=SC-2,safSg=2N,safApp=OpenSAF</dn>
@@ -6131,6 +8015,18 @@ to ensure that default global values in the implementation are also changed acco
 			<name>saAmfCompType</name>
 			<value>safVersion=4.0.0,safCompType=OpenSafCompTypeFMS</value>
 		</attr>
+	   <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfComp</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>			
 	</object>
 	<object class="SaAmfComp">
 		<dn>safComp=GLD,safSu=SC-1,safSg=2N,safApp=OpenSAF</dn>
@@ -6138,6 +8034,18 @@ to ensure that default global values in the implementation are also changed acco
 			<name>saAmfCompType</name>
 			<value>safVersion=4.0.0,safCompType=OpenSafCompTypeGLD</value>
 		</attr>
+	   <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfComp</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>			
 	</object>
 	<object class="SaAmfComp">
 		<dn>safComp=GLD,safSu=SC-2,safSg=2N,safApp=OpenSAF</dn>
@@ -6145,6 +8053,18 @@ to ensure that default global values in the implementation are also changed acco
 			<name>saAmfCompType</name>
 			<value>safVersion=4.0.0,safCompType=OpenSafCompTypeGLD</value>
 		</attr>
+	   <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfComp</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>			
 	</object>
 	<object class="SaAmfComp">
 		<dn>safComp=GLND,safSu=PL-3,safSg=NoRed,safApp=OpenSAF</dn>
@@ -6152,6 +8072,18 @@ to ensure that default global values in the implementation are also changed acco
 			<name>saAmfCompType</name>
 			<value>safVersion=4.0.0,safCompType=OpenSafCompTypeGLND</value>
 		</attr>
+	   <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfComp</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>			
 	</object>
 	<object class="SaAmfComp">
 		<dn>safComp=GLND,safSu=SC-1,safSg=NoRed,safApp=OpenSAF</dn>
@@ -6159,6 +8091,18 @@ to ensure that default global values in the implementation are also changed acco
 			<name>saAmfCompType</name>
 			<value>safVersion=4.0.0,safCompType=OpenSafCompTypeGLND</value>
 		</attr>
+	   <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfComp</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>			
 	</object>
 	<object class="SaAmfComp">
 		<dn>safComp=GLND,safSu=SC-2,safSg=NoRed,safApp=OpenSAF</dn>
@@ -6166,6 +8110,18 @@ to ensure that default global values in the implementation are also changed acco
 			<name>saAmfCompType</name>
 			<value>safVersion=4.0.0,safCompType=OpenSafCompTypeGLND</value>
 		</attr>
+	   <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfComp</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>			
 	</object>
 	<object class="SaAmfComp">
 		<dn>safComp=IMMD,safSu=SC-1,safSg=2N,safApp=OpenSAF</dn>
@@ -6173,6 +8129,18 @@ to ensure that default global values in the implementation are also changed acco
 			<name>saAmfCompType</name>
 			<value>safVersion=4.0.0,safCompType=OpenSafCompTypeIMMD</value>
 		</attr>
+	   <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfComp</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>			
 	</object>
 	<object class="SaAmfComp">
 		<dn>safComp=IMMD,safSu=SC-2,safSg=2N,safApp=OpenSAF</dn>
@@ -6180,6 +8148,18 @@ to ensure that default global values in the implementation are also changed acco
 			<name>saAmfCompType</name>
 			<value>safVersion=4.0.0,safCompType=OpenSafCompTypeIMMD</value>
 		</attr>
+	   <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfComp</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>			
 	</object>
 	<object class="SaAmfComp">
 		<dn>safComp=IMMND,safSu=PL-3,safSg=NoRed,safApp=OpenSAF</dn>
@@ -6187,6 +8167,18 @@ to ensure that default global values in the implementation are also changed acco
 			<name>saAmfCompType</name>
 			<value>safVersion=4.0.0,safCompType=OpenSafCompTypeIMMND</value>
 		</attr>
+	   <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfComp</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>			
 	</object>
 	<object class="SaAmfComp">
 		<dn>safComp=IMMND,safSu=SC-1,safSg=NoRed,safApp=OpenSAF</dn>
@@ -6194,6 +8186,18 @@ to ensure that default global values in the implementation are also changed acco
 			<name>saAmfCompType</name>
 			<value>safVersion=4.0.0,safCompType=OpenSafCompTypeIMMND</value>
 		</attr>
+	   <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfComp</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>			
 	</object>
 	<object class="SaAmfComp">
 		<dn>safComp=IMMND,safSu=SC-2,safSg=NoRed,safApp=OpenSAF</dn>
@@ -6201,6 +8205,18 @@ to ensure that default global values in the implementation are also changed acco
 			<name>saAmfCompType</name>
 			<value>safVersion=4.0.0,safCompType=OpenSafCompTypeIMMND</value>
 		</attr>
+	   <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfComp</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>			
 	</object>
 	<object class="SaAmfComp">
 		<dn>safComp=LOG,safSu=SC-1,safSg=2N,safApp=OpenSAF</dn>
@@ -6208,6 +8224,18 @@ to ensure that default global values in the implementation are also changed acco
 			<name>saAmfCompType</name>
 			<value>safVersion=4.0.0,safCompType=OpenSafCompTypeLOG</value>
 		</attr>
+	   <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfComp</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>			
 	</object>
 	<object class="SaAmfComp">
 		<dn>safComp=LOG,safSu=SC-2,safSg=2N,safApp=OpenSAF</dn>
@@ -6215,6 +8243,18 @@ to ensure that default global values in the implementation are also changed acco
 			<name>saAmfCompType</name>
 			<value>safVersion=4.0.0,safCompType=OpenSafCompTypeLOG</value>
 		</attr>
+	   <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfComp</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>			
 	</object>
 	<object class="SaAmfComp">
 		<dn>safComp=MQD,safSu=SC-1,safSg=2N,safApp=OpenSAF</dn>
@@ -6222,6 +8262,18 @@ to ensure that default global values in the implementation are also changed acco
 			<name>saAmfCompType</name>
 			<value>safVersion=4.0.0,safCompType=OpenSafCompTypeMQD</value>
 		</attr>
+	   <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfComp</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>			
 	</object>
 	<object class="SaAmfComp">
 		<dn>safComp=MQD,safSu=SC-2,safSg=2N,safApp=OpenSAF</dn>
@@ -6229,6 +8281,18 @@ to ensure that default global values in the implementation are also changed acco
 			<name>saAmfCompType</name>
 			<value>safVersion=4.0.0,safCompType=OpenSafCompTypeMQD</value>
 		</attr>
+	   <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfComp</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>			
 	</object>
 	<object class="SaAmfComp">
 		<dn>safComp=MQND,safSu=PL-3,safSg=NoRed,safApp=OpenSAF</dn>
@@ -6236,6 +8300,18 @@ to ensure that default global values in the implementation are also changed acco
 			<name>saAmfCompType</name>
 			<value>safVersion=4.0.0,safCompType=OpenSafCompTypeMQND</value>
 		</attr>
+	   <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfComp</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>			
 	</object>
 	<object class="SaAmfComp">
 		<dn>safComp=MQND,safSu=SC-1,safSg=NoRed,safApp=OpenSAF</dn>
@@ -6243,6 +8319,18 @@ to ensure that default global values in the implementation are also changed acco
 			<name>saAmfCompType</name>
 			<value>safVersion=4.0.0,safCompType=OpenSafCompTypeMQND</value>
 		</attr>
+	   <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfComp</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>			
 	</object>
 	<object class="SaAmfComp">
 		<dn>safComp=MQND,safSu=SC-2,safSg=NoRed,safApp=OpenSAF</dn>
@@ -6250,6 +8338,18 @@ to ensure that default global values in the implementation are also changed acco
 			<name>saAmfCompType</name>
 			<value>safVersion=4.0.0,safCompType=OpenSafCompTypeMQND</value>
 		</attr>
+	   <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfComp</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>			
 	</object>
 	<object class="SaAmfComp">
 		<dn>safComp=NTF,safSu=SC-1,safSg=2N,safApp=OpenSAF</dn>
@@ -6257,6 +8357,18 @@ to ensure that default global values in the implementation are also changed acco
 			<name>saAmfCompType</name>
 			<value>safVersion=4.0.0,safCompType=OpenSafCompTypeNTF</value>
 		</attr>
+	   <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfComp</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>			
 	</object>
 	<object class="SaAmfComp">
 		<dn>safComp=NTF,safSu=SC-2,safSg=2N,safApp=OpenSAF</dn>
@@ -6264,6 +8376,18 @@ to ensure that default global values in the implementation are also changed acco
 			<name>saAmfCompType</name>
 			<value>safVersion=4.0.0,safCompType=OpenSafCompTypeNTF</value>
 		</attr>
+	   <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfComp</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>			
 	</object>
 	<object class="SaAmfComp">
 		<dn>safComp=RDE,safSu=SC-1,safSg=2N,safApp=OpenSAF</dn>
@@ -6271,6 +8395,18 @@ to ensure that default global values in the implementation are also changed acco
 			<name>saAmfCompType</name>
 			<value>safVersion=4.0.0,safCompType=OpenSafCompTypeRDE</value>
 		</attr>
+	   <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfComp</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>			
 	</object>
 	<object class="SaAmfComp">
 		<dn>safComp=RDE,safSu=SC-2,safSg=2N,safApp=OpenSAF</dn>
@@ -6278,6 +8414,18 @@ to ensure that default global values in the implementation are also changed acco
 			<name>saAmfCompType</name>
 			<value>safVersion=4.0.0,safCompType=OpenSafCompTypeRDE</value>
 		</attr>
+	   <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfComp</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>			
 	</object>
 	<object class="SaAmfComp">
 		<dn>safComp=SMF,safSu=SC-1,safSg=2N,safApp=OpenSAF</dn>
@@ -6285,6 +8433,18 @@ to ensure that default global values in the implementation are also changed acco
 			<name>saAmfCompType</name>
 			<value>safVersion=4.0.0,safCompType=OpenSafCompTypeSMF</value>
 		</attr>
+	   <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfComp</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>			
 	</object>
 	<object class="SaAmfComp">
 		<dn>safComp=SMF,safSu=SC-2,safSg=2N,safApp=OpenSAF</dn>
@@ -6292,6 +8452,18 @@ to ensure that default global values in the implementation are also changed acco
 			<name>saAmfCompType</name>
 			<value>safVersion=4.0.0,safCompType=OpenSafCompTypeSMF</value>
 		</attr>
+	   <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfComp</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>			
 	</object>
 	<object class="SaAmfComp">
 		<dn>safComp=SMFND,safSu=PL-3,safSg=NoRed,safApp=OpenSAF</dn>
@@ -6299,6 +8471,18 @@ to ensure that default global values in the implementation are also changed acco
 			<name>saAmfCompType</name>
 			<value>safVersion=4.0.0,safCompType=OpenSafCompTypeSMFND</value>
 		</attr>
+	   <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfComp</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>			
 	</object>
 	<object class="SaAmfComp">
 		<dn>safComp=SMFND,safSu=SC-1,safSg=NoRed,safApp=OpenSAF</dn>
@@ -6306,6 +8490,18 @@ to ensure that default global values in the implementation are also changed acco
 			<name>saAmfCompType</name>
 			<value>safVersion=4.0.0,safCompType=OpenSafCompTypeSMFND</value>
 		</attr>
+	   <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfComp</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>			
 	</object>
 	<object class="SaAmfComp">
 		<dn>safComp=SMFND,safSu=SC-2,safSg=NoRed,safApp=OpenSAF</dn>
@@ -6313,6 +8509,18 @@ to ensure that default global values in the implementation are also changed acco
 			<name>saAmfCompType</name>
 			<value>safVersion=4.0.0,safCompType=OpenSafCompTypeSMFND</value>
 		</attr>
+	   <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfComp</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>			
 	</object>
 	<object class="SaAmfCompCsType">
 		<dn>safSupportedCsType=safVersion=4.0.0\,safCSType=AMFWDOG-OpenSAF,safComp=AMFWDOG,safSu=PL-3,safSg=NoRed,safApp=OpenSAF</dn>
@@ -6468,25 +8676,81 @@ to ensure that default global values in the implementation are also changed acco
 		<!-- ################################################ Meta-Meta-Model ################################################# -->
     <object class="SaAmfAppBaseType">
         <dn>safAppType=AppBaseTypeNWayActiveHTTP</dn>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfAppBaseType</value>
+	    </attr>       
     </object>
     <object class="SaAmfSGBaseType">
         <dn>safSgType=SGBaseTypeForNWayActiveHTTP</dn>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfSGBaseType</value>
+	    </attr>        
     </object>
     <object class="SaAmfSUBaseType">
         <dn>safSuType=SUBaseTypeForNWayActiveHTTP</dn>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfSUBaseType</value>
+	    </attr>        
     </object>
     <object class="SaAmfCompBaseType">
         <dn>safCompType=CompBaseTypeForNWayActiveHTTP</dn>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfCompBaseType</value>
+	    </attr>        
     </object>
     <object class="SaAmfSvcBaseType">
         <dn>safSvcType=ServiceBaseTypeNWayActiveHTTP</dn>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfSvcBaseType</value>
+	    </attr>   
     </object>
     <object class="SaAmfCSBaseType">
         <dn>safCSType=CSBaseTypeNWayActiveHTTP</dn>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfCSBaseType</value>
+	    </attr>
     </object>
     <!-- ################################################# Meta-Model ################################################# -->
     <object class="SaAmfSvcType">
         <dn>safVersion=4.0.0,safSvcType=ServiceBaseTypeNWayActiveHTTP</dn>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfSvcType</value>
+	    </attr>
     </object>
 	<object class="SaAmfAppType">
         <dn>safVersion=4.0.0,safAppType=AppBaseTypeNWayActiveHTTP</dn>
@@ -6494,6 +8758,14 @@ to ensure that default global values in the implementation are also changed acco
             <name>saAmfApptSGTypes</name>
             <value>safVersion=4.0.0,safSgType=SGBaseTypeForNWayActiveHTTP</value>
         </attr>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfAppType</value>
+	    </attr>        
     </object>
     <object class="SaAmfSGType">
         <dn>safVersion=4.0.0,safSgType=SGBaseTypeForNWayActiveHTTP</dn>
@@ -6529,6 +8801,14 @@ to ensure that default global values in the implementation are also changed acco
 			<name>saAmfSgtDefAutoAdjustProb</name>
 			<value>10000000</value>
 		</attr>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfSGType</value>
+	    </attr>
     </object>
     <object class="SaAmfSUType">
         <dn>safVersion=4.0.0,safSuType=SUBaseTypeForNWayActiveHTTP</dn>
@@ -6544,6 +8824,18 @@ to ensure that default global values in the implementation are also changed acco
             <name>saAmfSutProvidesSvcTypes</name>
             <value>safVersion=4.0.0,safSvcType=ServiceBaseTypeNWayActiveHTTP</value>
         </attr>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfSUType</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrAdminOwnerName</name>
+	      <value>IMMLOADER</value>
+	    </attr>        
     </object>
     <object class="SaAmfCompType">
         <dn>safVersion=4.0.0,safCompType=CompBaseTypeForNWayActiveHTTP</dn>
@@ -6596,6 +8888,14 @@ to ensure that default global values in the implementation are also changed acco
             <name>saAmfCtDefDisableRestart</name>
             <value>0</value>
         </attr>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfCompType</value>
+	    </attr>        
     </object>
     <object class="SaAmfCSType">
         <dn>safVersion=4.0.0,safCSType=CSBaseTypeNWayActiveHTTP</dn>
@@ -6603,6 +8903,14 @@ to ensure that default global values in the implementation are also changed acco
             <name>saAmfCSAttrName</name>
             <value>SAFHTTPATT</value>
         </attr>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfCSType</value>
+	    </attr>        
     </object>
     <object class="SaAmfSutCompType">
         <dn>safMemberCompType=safVersion=4.0.0\,safCompType=CompBaseTypeForNWayActiveHTTP,safVersion=4.0.0,safSuType=SUBaseTypeForNWayActiveHTTP</dn>
@@ -6624,6 +8932,14 @@ to ensure that default global values in the implementation are also changed acco
             <name>saAmfAppType</name>
             <value>safVersion=4.0.0,safAppType=AppBaseTypeNWayActiveHTTP</value>
         </attr>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfApplication</value>
+	    </attr>        
     </object>
     <object class="SaAmfSG">
         <dn>safSg=SGNWayActiveHTTP,safApp=AppNWayActiveHTTP</dn>
@@ -6660,6 +8976,27 @@ to ensure that default global values in the implementation are also changed acco
             <value>0</value>
         </attr>
     </object>
+	<!-- For EE (start)-->
+	  <object class="SaSGBuff">
+	    <dn>safBuff=safSg=SGNWayActiveHTTP,safApp=AppNWayActiveHTTP</dn>
+	    <attr>
+	      <name>saSpareSUBuff</name>
+	      <value>0</value>
+	    </attr>
+	    <attr>
+	      <name>saInserviceBuff</name>
+	      <value>1</value>
+	    </attr>
+	    <attr>
+	      <name>saAmfSGName</name>
+	      <value>safSg=safSg=SGNWayActiveHTTP,safApp=AppNWayActiveHTTP</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaSGBuff</value>
+	    </attr>
+	  </object>
+	<!-- For EE (end)-->      
     <object class="SaAmfSI">
         <dn>safSi=SI_1_NWayActiveHTTP,safApp=AppNWayActiveHTTP</dn>
         <attr>
@@ -6681,6 +9018,14 @@ to ensure that default global values in the implementation are also changed acco
             <name>saAmfCSType</name>
             <value>safVersion=4.0.0,safCSType=CSBaseTypeNWayActiveHTTP</value>
         </attr>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfCSI</value>
+	    </attr>
     </object>
     <object class="SaAmfCSIAttribute">
         <dn>safCsiAttr=SAFHTTPATT,safCsi=CSI_1_NWayActiveHTTP,safSi=SI_1_NWayActiveHTTP,safApp=AppNWayActiveHTTP</dn>
@@ -6688,6 +9033,14 @@ to ensure that default global values in the implementation are also changed acco
             <name>saAmfCSIAttriValue</name>
             <value>safCsi=CSI_1_NWayActiveHTTP,safSi=SI_1_NWayActiveHTTP,safApp=AppNWayActiveHTTP</value>
         </attr>
+	    <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfCSIAttribute</value>
+	    </attr>        
     </object>
     <object class="SaSmfSwBundle">
         <dn>safSmfBundle=SmfBundleNWayActiveHTTP</dn>
@@ -6724,6 +9077,14 @@ to ensure that default global values in the implementation are also changed acco
             <name>saAmfCompInstantiateCmdArgv</name>
             <value>8080</value>
         </attr>
+	   <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfComp</value>
+	    </attr>        
     </object>
     <object class="SaAmfCompCsType">
         <dn>safSupportedCsType=safVersion=4.0.0\,safCSType=CSBaseTypeNWayActiveHTTP,safComp=comp_1_NWayActiveHTTP,safSu=SU_1_NWayActiveHTTP,safSg=SGNWayActiveHTTP,safApp=AppNWayActiveHTTP</dn>
@@ -6761,6 +9122,14 @@ to ensure that default global values in the implementation are also changed acco
             <name>saAmfCompInstantiateCmdArgv</name>
             <value>8080</value>
         </attr>
+	   <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfComp</value>
+	    </attr>          
     </object>
     <object class="SaAmfCompCsType">
         <dn>safSupportedCsType=safVersion=4.0.0\,safCSType=CSBaseTypeNWayActiveHTTP,safComp=comp_1_NWayActiveHTTP,safSu=SU_2_NWayActiveHTTP,safSg=SGNWayActiveHTTP,safApp=AppNWayActiveHTTP</dn>
@@ -6798,6 +9167,14 @@ to ensure that default global values in the implementation are also changed acco
             <name>saAmfCompInstantiateCmdArgv</name>
             <value>8080</value>
         </attr>
+	   <attr>
+	      <name>SaImmAttrImplementerName</name>
+	      <value>safAmfService</value>
+	    </attr>
+	    <attr>
+	      <name>SaImmAttrClassName</name>
+	      <value>SaAmfComp</value>
+	    </attr>          
     </object>
     <object class="SaAmfCompCsType">
         <dn>safSupportedCsType=safVersion=4.0.0\,safCSType=CSBaseTypeNWayActiveHTTP,safComp=comp_1_NWayActiveHTTP,safSu=SU_3_NWayActiveHTTP,safSg=SGNWayActiveHTTP,safApp=AppNWayActiveHTTP</dn>
