@@ -4786,6 +4786,12 @@
       <name>SaImmAttrClassName</name>
       <value>SaAmfComp</value>
     </attr>
+   
+    <attr>
+    <name>saAmfCompProxyCsi</name>
+    <value>safCsi=AmfDemo,safSi=AmfDemo,safApp=AmfDemo1</value>
+    </attr>    
+
   </object>
   <object class="SaAmfComp">
     <dn>safComp=AmfDemo,safSu=SU5,safSg=AmfDemo,safApp=AmfDemo1</dn>
@@ -11370,7 +11376,7 @@
     </attr>
     <attr>
       <name>saAmfCtCompCategory</name>
-      <value>1</value>
+      <value>4</value>
     </attr>
     <attr>
       <name>SaImmAttrImplementerName</name>
