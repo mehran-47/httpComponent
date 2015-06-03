@@ -50,7 +50,7 @@ if __name__ == '__main__':
         sys.exit()
     else:
         ip = ni.ifaddresses(interface_to_host_in)[2][0]['addr']
-        port = int(sys.argv[1])
+        port = 8080
         #sneaky!
         os.environ['SAFHTTPATT'] = 'safCsi=AmfDemo,safSi=AmfDemo,safApp=AmfDemo1'
         CSI_name = os.environ.get('SAFHTTPATT')

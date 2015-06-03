@@ -61,6 +61,7 @@ if __name__ == '__main__':
     for key in os.environ: envVarStrings+=str(key)+":"+ str(os.environ[key]) +"\n"
     with open('/opt/SA_stats/osaf_envs', 'w') as sf: sf.write(envVarStrings)
     with open('/opt/SA_stats/pid', 'w') as sf: sf.write(str(os.getpid()))
+    with open('/tmp/'+component_name+'.pid', 'w') as sf: sf.write(str(os.getpid()))
     try:
         db = sh.open('/opt/SA_stats/compDB.db', writeback=True)
         if not 'components' in db: db['components'] = {}
