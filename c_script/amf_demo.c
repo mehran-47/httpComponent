@@ -119,7 +119,7 @@ static void amf_csi_set_callback(SaInvocationT invocation,
 	SaAisErrorT rc, error;
 	SaAmfCSIAttributeT *attr;
 	int i, status;
-
+    create_tmp_csi_assignment();
 	if (csi_desc.csiFlags == SA_AMF_CSI_ADD_ONE) {
 
 		syslog(LOG_INFO, "CSI Set - add '%s' HAState %s", 
@@ -215,7 +215,7 @@ static void amf_csi_remove_callback(SaInvocationT invocation,
 									SaAmfCSIFlagsT csi_flags)
 {
 	SaAisErrorT rc;
-
+    remove_tmp_csi_assignment();
 	if (csi_flags == SA_AMF_CSI_TARGET_ALL)
 		syslog(LOG_INFO, "CSI Remove for all CSIs");
 	else if (csi_flags == SA_AMF_CSI_TARGET_ONE)
