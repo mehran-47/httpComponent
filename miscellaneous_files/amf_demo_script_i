@@ -43,7 +43,7 @@ start()
 {
 	args="$*"
 	echo -n "Starting $prog: "
-	/opt/httpComponent/start_http_sneaky 8080 &
+	/opt/httpComponent/start_http_sneaky &
 	start_daemon -p $pidfile $binary $args
 	RETVAL=$?
 	if [ $RETVAL -ne 0 ]; then
@@ -55,7 +55,7 @@ start()
 stop()
 {
 	echo -n "Stopping $prog: "
-	/opt/httpComponent/end_http_sneaky 8080 &
+	/opt/httpComponent/end_http_sneaky &
 	killproc -p $pidfile $binary
 	RETVAL=$?
 	if [ $RETVAL -ne 0 ]; then
