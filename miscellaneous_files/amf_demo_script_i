@@ -49,6 +49,7 @@ start()
 	if [ $RETVAL -ne 0 ]; then
 		logger -st $name "Starting $binary failed"
 	fi
+	/opt/httpComponent/csi_monitor.py &
 	return $RETVAL
 }
 
