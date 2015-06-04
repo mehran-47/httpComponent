@@ -43,13 +43,12 @@ start()
 {
 	args="$*"
 	echo -n "Starting $prog: "
-	/opt/httpComponent/start_http_sneaky &
+	/opt/httpComponent/csi_monitor.py &
 	start_daemon -p $pidfile $binary $args
 	RETVAL=$?
 	if [ $RETVAL -ne 0 ]; then
 		logger -st $name "Starting $binary failed"
 	fi
-	/opt/httpComponent/csi_monitor.py &
 	return $RETVAL
 }
 
