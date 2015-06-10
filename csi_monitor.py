@@ -7,8 +7,8 @@ if __name__ == '__main__':
     pidTokill, component_pid, http_pid = (-1, -1, -1)
     if os.path.exists('/opt/SA_stats/csi_monitor'):
         print('CSI monitor is already running')
-        with open('/opt/SA_stats/csi_monitor') as cm: pidTokill = str(cm.read()).rsplit('\n')[0]        
-        call(['kill', '-9', pidTokill])
+        with open('/opt/SA_stats/csi_monitor') as cm: pidTokill = str(cm.read()).rsplit('\n')[0]
+        if os.path.exists('/proc/'+pidTokill): call(['kill', '-9', pidTokill])
     component_name = str(os.environ.get('SA_AMF_COMPONENT_NAME'))
     with open('/tmp/'+component_name+'.pid', 'r') as compPIDf : component_pid = str(compPIDf.readline())
     with open('/opt/SA_stats/pid', 'r') as pidf: http_pid = str(pidf.readline())
