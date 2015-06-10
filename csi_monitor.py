@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 from subprocess import call
 from multiprocessing import Process
-import os, time
+import os, time, sys
 
 if __name__ == '__main__':
     pidTokill, component_pid, http_pid = (-1, -1, -1)
@@ -14,7 +14,8 @@ if __name__ == '__main__':
     if os.path.exists('/tmp/'+component_name+'.pid'):
         with open('/tmp/'+component_name+'.pid', 'r') as compPIDf : component_pid = str(compPIDf.readline())
     else:
-        return None
+        print('/tmp/component_name.pid does not exist.')
+        sys.exit()
     with open('/opt/SA_stats/pid', 'r') as pidf: http_pid = str(pidf.readline())
     component_pid = component_pid.rsplit('\n')[0]
     http_pid = http_pid.rsplit('\n')[0]
