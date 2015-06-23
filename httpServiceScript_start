@@ -1,4 +1,4 @@
 #!/bin/bash
 logger "HTTP service starting"
 /opt/httpComponent/start_http $2 &
-return
+exit
