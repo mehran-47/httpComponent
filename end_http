@@ -10,9 +10,9 @@ if __name__ == '__main__':
         sys.exit()        
     for component in db['components']: 
         print(db['components'][component]['PID'])
+        call('amfpm --stop -p'.split(' ')+ [str(db['components'][component]['PID']), component])
         try:
-        	call('amfpm --stop'.split(' ')+ [component_name])
-            psutil.Process(db['components'][component]['PID']).kill()            
+        	psutil.Process(db['components'][component]['PID']).kill()            
         except psutil.NoSuchProcess:
             print('component-process not found')
         call(['/opt/httpComponent/send_trace.o', str(db['components'][component]['PID']), '0'])
