@@ -44,6 +44,9 @@ class WelcomeHandler(BaseHTTPRequestHandler):
         except BrokenPipeError:
             print('Failed to complete request')
 
+    def log_message(self, format, *args):
+        return
+
 if __name__ == '__main__':
     #killing all potentially rogue http component server processes
     call('killall httpCompServer_py'.split(' '))
