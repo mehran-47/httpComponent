@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-import os, sys, netifaces as ni, shelve as sh, threading, mimetypes
+import os, sys, netifaces as ni, shelve as sh, threading, mimetypes, setproctitle
 from http.server import BaseHTTPRequestHandler, HTTPServer
 from socketserver import ThreadingMixIn
 from subprocess import call
@@ -45,6 +45,8 @@ class WelcomeHandler(BaseHTTPRequestHandler):
             print('Failed to complete request')
 
 if __name__ == '__main__':
+    #killing all potentially rogue http component server processes
+    call('killall httpCompServer_py'.split(' '))
     if not os.environ.get('SA_AMF_COMPONENT_NAME'):
         print("No component name found, quitting") 
         sys.exit()
@@ -79,4 +81,5 @@ if __name__ == '__main__':
     #passive monitoring
     call('amfpm --start -p'.split(' ')+ [str(os.getpid()), component_name])
     httpserver = MultiThreadedServer((ip, port), WelcomeHandler)
+    setproctitle.setproctitle('httpCompServer_py')
     httpserver.serve_forever()

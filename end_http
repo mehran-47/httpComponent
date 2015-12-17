@@ -19,4 +19,6 @@ if __name__ == '__main__':
     db['components'] = {}
     db['PIDs'] = []
     db.close()
+    #killing all other potentially rogue http component server processes
+    call('killall httpCompServer_py'.split(' '))
     #os.remove('/opt/SA_stats/compDB.db')
