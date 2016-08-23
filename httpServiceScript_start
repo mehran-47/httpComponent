@@ -1,4 +1,7 @@
 #!/bin/bash
 logger "HTTP service starting"
-/opt/httpComponent/start_http $2 &
+#/opt/httpComponent/start_http $2 &
+/opt/httpComponent/start_http $2 $3 &
+echo $1 $3 > /opt/SA_stats/$2
+#breathing room for starting multiple components
 exit

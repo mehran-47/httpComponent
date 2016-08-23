@@ -49,43 +49,43 @@ class WelcomeHandler(BaseHTTPRequestHandler):
 
 
 if __name__ == '__main__':
-    #killing all potentially rogue http component server processes
-    for p in psutil.process_iter():
-        if p.name()=='httpCompServer_py':
-            p.terminate()
-    if not os.environ.get('SA_AMF_COMPONENT_NAME'):
-        print("No component name found, quitting") 
-        sys.exit()
-    else:
-        ip = ni.ifaddresses(interface_to_host_in)[2][0]['addr']
-        port = int(sys.argv[1])
-        #CSI_name = os.environ.get('SAFHTTPATT')
-        CSI_name = 'safCsi=AmfDemo,safSi=AmfDemo,safApp=AmfDemo1'
-        component_name = str(os.environ.get('SA_AMF_COMPONENT_NAME'))
-
-    #Getting environment variables to show in the web page and to store in the temporary DB.
-    #DB has nothing to do with monitoring, kept for debugging purposes/ease of starting/ending http
-    envVarStrings = ""
-    for key in os.environ: envVarStrings+=str(key)+":"+ str(os.environ[key]) +"\n"
-    with open('/opt/SA_stats/osaf_envs', 'w') as sf: sf.write(envVarStrings)
-    with open('/opt/SA_stats/pid', 'w') as sf: sf.write(str(os.getpid()))
-    with open('/tmp/'+component_name+'.pid', 'w') as sf: sf.write(str(os.getpid()))
-    try:
-        db = sh.open('/opt/SA_stats/compDB.db', writeback=True)
-        if not 'components' in db: db['components'] = {}
-        db['PIDs'] = db['PIDs']+[os.getpid()] if 'PIDs' in db else [os.getpid()]
-        db['osaf_envs'] = envVarStrings
-        db['components'][component_name] = {'CSI':CSI_name, 'PID':os.getpid(), 'component':component_name, 'HAState':'Active'}
-    finally:
-        db.close()
-    #Creating the main HTML page
-    htmlpage = '<html><head><title>SAF Web</title></head><body><p>Component-Web page</p></body></html>'
-    notfound = "File not found"
-    #Sending trace for the monitoring engine. A form of general instrumentation: command "/opt/httpComponent/send_trace.o <PID> <1>" or "/opt/httpComponent/send_trace.o <PID> <2>"
-    #The 1 signifies 'component instatiation' trace creation, 0 would signify 'component termination'.
-    call([component_dir+'/send_trace.o', str(os.getpid()), '1'])
-    #passive monitoring
-    call('amfpm --start -p'.split(' ')+ [str(os.getpid()), component_name])
-    httpserver = MultiThreadedServer((ip, port), WelcomeHandler)
-    setproctitle.setproctitle('httpCompServer_py')
-    httpserver.serve_forever()
+    #queueing all http processes to start
+    if sys.argv[1:]:
+        procname = sys.argv[1].strip()
+        if not os.environ.get('SA_AMF_COMPONENT_NAME'):
+            print("No component name found, quitting") 
+            sys.exit()
+        else:
+            ip = ni.ifaddresses(interface_to_host_in)[2][0]['addr']
+            port = int(sys.argv[2])
+            #CSI_name = os.environ.get('SAFHTTPATT')
+            CSI_name = 'safCsi=AmfDemo,safSi=AmfDemo,safApp=AmfDemo1'
+            component_name = str(os.environ.get('SA_AMF_COMPONENT_NAME'))
+        #Getting environment variables to show in the web page and to store in the temporary DB.
+        #DB has nothing to do with monitoring, kept for debugging purposes/ease of starting/ending http
+        envVarStrings = ""
+        for key in os.environ: envVarStrings+=str(key)+":"+ str(os.environ[key]) +"\n"
+        with open('/opt/SA_stats/osaf_envs', 'w') as sf: sf.write(envVarStrings)
+        with open('/opt/SA_stats/pid', 'w') as sf: sf.write(str(os.getpid()))
+        with open('/tmp/'+component_name+'.pid', 'w') as sf: sf.write(str(os.getpid()))
+        '''
+        try:
+            db = sh.open('/opt/SA_stats/compDB.db', writeback=True)
+            if not 'components' in db: db['components'] = {}
+            db['PIDs'] = db['PIDs']+[os.getpid()] if 'PIDs' in db else [os.getpid()]
+            db['osaf_envs'] = envVarStrings
+            db['components'][component_name] = {'CSI':CSI_name, 'PID':os.getpid(), 'component':component_name, 'HAState':'Active'}
+        finally:
+            db.close()
+        '''
+        #Creating the main HTML page
+        htmlpage = '<html><head><title>SAF Web</title></head><body><p>Component-Web page</p></body></html>'
+        notfound = "File not found"
+        #Sending trace for the monitoring engine. A form of general instrumentation: command "/opt/httpComponent/send_trace.o <PID> <1>" or "/opt/httpComponent/send_trace.o <PID> <2>"
+        #The 1 signifies 'component instatiation' trace creation, 0 would signify 'component termination'.
+        call([component_dir+'/send_trace.o', str(os.getpid()), '1'])
+        #passive monitoring
+        call('amfpm --start -p'.split(' ')+ [str(os.getpid()), component_name])
+        httpserver = MultiThreadedServer((ip, port), WelcomeHandler)
+        setproctitle.setproctitle(procname)
+        httpserver.serve_forever()

@@ -1,7 +1,16 @@
 #!/usr/bin/env python3
-import os, psutil, shelve as sh, sys
+import os, psutil, shelve as sh, sys, time, random
 from subprocess import call
 if __name__ == '__main__':
+    if sys.argv[1:]:
+        if os.path.exists('/opt/SA_stats/'+sys.argv[-1]):
+            procname_to_terminate = sys.argv[-1].strip()
+            os.remove('/opt/SA_stats/'+procname_to_terminate)
+    #killing appropriate http component server processes    
+    for p in psutil.process_iter():
+        if p.name()==procname_to_terminate:
+            p.terminate()
+    '''
     try:
         db = sh.open('/opt/SA_stats/compDB.db', writeback=True)
         killList = db['PIDs']
@@ -19,8 +28,5 @@ if __name__ == '__main__':
     db['components'] = {}
     db['PIDs'] = []
     db.close()
-    #killing all other potentially rogue http component server processes
-    for p in psutil.process_iter():
-        if p.name()=='httpCompServer_py':
-            p.terminate()
+    '''
     #os.remove('/opt/SA_stats/compDB.db')
