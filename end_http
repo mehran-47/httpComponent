@@ -12,7 +12,7 @@ if __name__ == '__main__':
         try:
             if p.name()==procname_to_terminate:
                 p.terminate()
-        except psutil.NoSuchProcess:
+        except:
             print('component-process not found')
             terminationFailedFor = p.name().rsplit('-')[0]
     #Killing everything else in case termination fails
