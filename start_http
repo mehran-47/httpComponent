@@ -53,7 +53,8 @@ if __name__ == '__main__':
     if sys.argv[1:]:
         procname = sys.argv[1].strip()
         #in case a rogue process exists beforehand
-        call(['pkill','-f',procname])
+        for p in psutil.process_iter():
+            if p.name()==procname: call(['pkill','-f',procname])
         if not os.environ.get('SA_AMF_COMPONENT_NAME'):
             print("No component name found, quitting") 
             sys.exit()
