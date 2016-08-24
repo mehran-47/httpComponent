@@ -52,6 +52,8 @@ if __name__ == '__main__':
     #queueing all http processes to start
     if sys.argv[1:]:
         procname = sys.argv[1].strip()
+        #in case a rogue process exists beforehand
+        call(['pkill','-f',procname])
         if not os.environ.get('SA_AMF_COMPONENT_NAME'):
             print("No component name found, quitting") 
             sys.exit()
