@@ -6,10 +6,18 @@ if __name__ == '__main__':
         if os.path.exists('/opt/SA_stats/'+sys.argv[-1]):
             procname_to_terminate = sys.argv[-1].strip()
             os.remove('/opt/SA_stats/'+procname_to_terminate)
-    #killing appropriate http component server processes    
+    #terminating appropriate http component server processes
+    terminationFailedFor = ''
     for p in psutil.process_iter():
-        if p.name()==procname_to_terminate:
-            p.terminate()
+        try:
+            if p.name()==procname_to_terminate:
+                p.terminate()
+        except psutil.NoSuchProcess:
+            print('component-process not found')
+            terminationFailedFor = p.name().rsplit('-')[0]
+    #Killing everything else in case termination fails
+    if terminationFailedFor[0:]: call(['pkill','-f',terminationFailedFor])
+
     '''
     try:
         db = sh.open('/opt/SA_stats/compDB.db', writeback=True)
